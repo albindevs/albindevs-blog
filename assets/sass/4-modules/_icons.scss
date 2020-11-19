@@ -1,0 +1,12 @@
+
+.icon {
+  width: 40px;
+  margin: 5px;
+  
+  @include transition;
+  
+  &:hover {
+    color: $primary-color;
+    @include transition;
+  }	
+}

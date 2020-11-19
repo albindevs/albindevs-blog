@@ -1,12 +1,30 @@
 baseURL = "/"
-languageCode = "en-gb"
-title = "{TITLE}"
+languageCode = "en-US"
+title = "Albindevs"
 
 enableRobotsTXT = true
 disableAliases = true
 
 [params]
+name = 'Albindevs'
 disallow_search_engines = false # set robots.txt to disallow everything
+AuthorName = "Albin Garcia"
+GitHubUser = "albindevs"
+# googleAnalyticsId = "UA-123606970-1"
+
+description = "Albin Garcia is a software developer..."
+
+# logoUrl = "/images/pawprint-logo.svg"
+# logoUrlPng = "/images/pawprint-logo.png"
+
+# socialMediaImg = "/images/pawprint-logo.svg"
+# socialMediaImgPng = "/images/banner-trans.png"
+
+# instagramUrl = "https://instagram.com/patikscol"
+# instagramUser = "Patikscol"
+
+# themeColor = "#f19e22"
+# repo = "https://github.com/squareflaw/patikscol"
 
 # add redirects/headers
 [outputs]

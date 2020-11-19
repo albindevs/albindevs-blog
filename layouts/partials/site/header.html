@@ -1,5 +1,25 @@
-<header class="site-header" role="banner">
+<header class="header" itemscope itemtype="https://schema.org/WPHeader">
+    <div class="website" itemscope itemtype="https://schema.org/Organization">
+        <a class="main-logo" href="/" itemprop="url">
+            <!-- {{ $s := resources.Get "images/logo-ad.svg" }} -->
+            <img src="images/logo-ad.svg" alt="main logo">
+        </a>
+        <div class="title">
+            <h2 class="websiteName" itemprop="name"> <a href="/">{{.Site.Params.name}}</a></h2>
+        </div>
+    </div>
 
-    <strong><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></strong>
-    
+    <div class="menu-btn">
+        <div class="menu-btn__line"></div>
+        <div class="menu-btn__line"></div>
+        <div class="menu-btn__line"></div>
+    </div>
+    <nav class="menu" itemscope itemtype="https://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="menu-nav">
+            <li class="menu-nav__item"> <a href="/" class=".menu-nav__item__link">Home</a></li>
+            <li class="menu-nav__item"> <a href="/blog/" class=".menu-nav__item__link">Blog</a></li>
+            <li class="menu-nav__item"> <a href="/services/" class=".menu-nav__item__link">Services</a></li>
+            <li class="menu-nav__item"> <a href="/portfolio/" class=".menu-nav__item__link">Portfolio</a></li>
+            <li class="menu-nav__item"> <a href="/about/" class=".menu-nav__item__link">About Me</a></li>
+        </ul>
 </header>

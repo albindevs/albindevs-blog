@@ -1,0 +1,27 @@
+
+.header.scroll {
+  background: $silver;
+  color: $low-gray;
+  box-shadow: 0 1px 1px 1px hsla(0,100%,0%,0.25);
+  
+  // @include transition;
+
+  @include media($large-min){
+    .menu {
+      color: $black;
+    }
+  }
+}
+
+.header.isShown {
+  color: $full-white;
+}
+
+
+.menu-btn.scroll {
+  & > * {    
+    background: $low-gray; 
+    @include transition;
+  }  
+}
+

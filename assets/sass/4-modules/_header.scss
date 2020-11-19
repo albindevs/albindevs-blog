@@ -1,0 +1,84 @@
+.header {
+  min-width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+  background: transparent;
+  color: $low-gray;
+
+  @include transition;
+
+
+  
+  .website{      
+    display: flex;
+    align-items: center;
+    
+    .main-logo {
+      width: 50px;
+      height: 50px;
+      margin: 5px 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .websiteName {
+      margin: 0;
+
+      font-family: $font-family-display;
+      font-size: 1.5rem;
+      font-weight: normal;
+      &:hover {
+        color: $black; 
+      }
+    }
+  }
+
+  @include media($large-min){
+    padding: 0 5vw; 
+    
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
+
+
+.menu-btn {
+  position: fixed;
+  top: 2vh;
+  right: 2vh;
+  z-index: 5;
+
+  cursor: pointer;
+  @include transition;
+
+
+  &__line {
+    width: 40px;
+    height: 5px;
+    margin: 0 0 5px 0;
+    
+    border-radius: 10px;
+    
+    background: $low-gray; 
+    @include transition;
+  }
+  
+  @include media($large-min){
+    display: none;
+  }
+}
+
+
+
+
