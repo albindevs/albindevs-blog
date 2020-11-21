@@ -29,7 +29,7 @@
     align-items: flex-start;
     flex-flow: column wrap;
 
-    font-size: 2rem;
+    font-size: 1.8rem;
 
     
     
@@ -49,9 +49,7 @@
       }
 
       & > *:hover {
-        padding-left: 1.2rem;
-
-        color: $primary-color;
+        color: $full-white;
         
         @include transition
       }
@@ -81,7 +79,7 @@
 
       &__item {
         height: 100%;
-        margin: 0 1rem;
+        margin: 0 0.5rem;
         border-left: 0;
         padding: 1rem;
         display: inline;

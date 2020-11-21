@@ -1,0 +1,50 @@
+.section-skill-boxes {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  .skill-box {
+    min-width: 300px;
+
+    &__title {
+      font-family: $font-family-default;
+      font-size: 2rem;
+      text-align: center;
+      color: $black; 
+      padding: 10px;
+    }
+
+    &__list {
+      list-style-type: None;
+      padding: 0;
+    }
+
+    &__item {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+
+      p {
+        margin: 0;
+      }
+
+      img {
+        width: 40px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+#skill-front {
+    border-bottom: 5px solid hsl(15, 100, 50);
+}
+
+#skill-back {
+    border-bottom: 5px solid hsl(150, 100, 40);
+}
+
+#skill-content {
+    border-bottom: 5px solid hsl(35, 100, 50);
+}

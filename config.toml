@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-US"
-title = "Albindevs - Software Developer"
+title = "Albindevs"
 
 enableRobotsTXT = true
 disableAliases = true
@@ -9,19 +9,22 @@ disableAliases = true
 name = 'Albindevs'
 disallow_search_engines = false # set robots.txt to disallow everything
 AuthorName = "Albin Garcia"
+authorImg = "/images/avatar.jpg"
+AuthorBio = "The conception of an idea until its execution is a process that I love to be part of as a developer, it really provides my with a lot of joy and satisfaction."
 GitHubUser = "albindevs"
+IgAccount = "@albindevs"
 # googleAnalyticsId = "UA-123606970-1"
 
 description = "Albin Garcia is a software developer..."
 
-# logoUrl = "/images/pawprint-logo.svg"
+logoUrl = "/images/logo-ad.svg"
 # logoUrlPng = "/images/pawprint-logo.png"
 
 # socialMediaImg = "/images/pawprint-logo.svg"
 # socialMediaImgPng = "/images/banner-trans.png"
 
-# instagramUrl = "https://instagram.com/patikscol"
-# instagramUser = "Patikscol"
+instagramUrl = "https://instagram.com/albindevs.blog"
+instagramUser = "@albindevs.blog"
 
 # themeColor = "#f19e22"
 # repo = "https://github.com/squareflaw/patikscol"

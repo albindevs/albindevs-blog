@@ -1,0 +1,34 @@
+{{ define "main" }}
+<div class="bloglist-wrapper">
+
+
+    <section itemscope="" itemtype="https://schema.org/Blog" class="section section-blog">
+        <div class="section-title">
+            <h4 class="title">&#128395;&#65039; Blog</h4>
+        </div>
+
+        <div class="cards">
+            {{ range .Pages}}
+            {{ block "post-card-recent" . }}{{ partial "post-card.html" . }}{{ end }}
+            {{ end }}
+        </div>
+    </section>
+
+
+    <!-- <section class="categories">
+        <ul class="list">
+            {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+            <li class="list__title"><a href="{{ "/" | safeURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}:</a>
+                <ul class="list">
+                    {{ range $key, $value := $taxonomy }}
+                    <li class="list__item"> <span>> </span><a href="/{{$taxonomyname}}/{{$key}}">{{ $key }}</a></li>
+                    {{ end }}
+                </ul>
+            </li>
+            {{ end }}
+        </ul>
+    </section> -->
+</div>
+
+
+{{ end }}

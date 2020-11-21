@@ -20,7 +20,7 @@ body {
   @include fluid-font-size($min-font-size, $max-font-size, $min-screen-size, $max-screen-size);
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
-  padding-top: 80px;
+  // padding-top: 80px;
 }
 
 
@@ -45,6 +45,12 @@ h6 {
   font-family: $font-family-display;
   margin: 0;
   padding: 0;
+}
+
+.horizontal-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

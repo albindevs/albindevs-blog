@@ -43,12 +43,12 @@ $primary-color:		$palette-color-1;
 $secundary-color:	$palette-color-4;
 $important-color:	$green;
 $link-color:		$blue;
-$bars-color: hsl(0,0%,90%);
 
 
 
 $color-background: $white;
-$color-text: $low-gray;
+$color-text: hsl(0, 0, 40%);
+$bars-color: hsl(0,0%,90%);
 
 
 
@@ -56,15 +56,15 @@ $color-text: $low-gray;
 
 //FONTS
 
-$font-size-base: 18px;
+$font-size-base: 20px;
 
-$min-font-size: 18;
-$max-font-size: 20;
+$min-font-size: 20;
+$max-font-size: 21;
 $min-screen-size: 320;
 $max-screen-size: 1330;
 	
 $font-family-display: 'Noto Serif', sans-serif;
-$font-family-default: 'Montserrat', sans-serif;
+$font-family-default: 'Open Sans', sans-serif;
 
 
 // //Images

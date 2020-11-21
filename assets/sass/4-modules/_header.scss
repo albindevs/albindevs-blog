@@ -58,8 +58,8 @@
 
 .menu-btn {
   position: fixed;
-  top: 2.5vh;
-  right: 2.5vh;
+  top: 18px;
+  right: 18px;
   z-index: 5;
 
   cursor: pointer;
@@ -73,7 +73,7 @@
     
     border-radius: 10px;
     
-    background: $low-gray; 
+    background: $low-gray;  
     @include transition;
   }
   

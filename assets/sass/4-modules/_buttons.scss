@@ -1,0 +1,31 @@
+.btn-cta {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #777;
+
+    @include transition;
+
+    &:hover {
+        box-shadow: 5px 5px #555;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    img {
+        width: 60px;
+        max-width: 40vw;
+        margin-right: 20px;
+    }
+
+}
+
+.btn-cv {
+    background-color: $blue;
+    color: $white;
+    margin-bottom: 40px;
+}

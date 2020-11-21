@@ -2,7 +2,6 @@
 .blogPost {
   max-width: 800px;
   margin: auto;
-  padding-top: 15vh;
   
   background: $full-white;
 
@@ -12,22 +11,28 @@
   h3,
   h4,
   h5,
-  h6,
-  strong {
+  h6 {
     color: $black;
   }
+
+  b, strong {
+    color: $low-gray;
+  }
+
   
   &__title,
-  &__date,
   &__caption,
-  &__body,
-  &__author {
+  &__body{
     padding: 2px 20px;
-    color: hsl(0,0%,30%);
+    color: hsl(0,0%,35%);
   }
 
   &__body {    
-    max-width: 600px;
+    width: 100vw;
+    max-width: 700px;
+  }
+  &__img {
+    padding: 20px;
   }
 
   &__author-bio{
@@ -38,7 +43,13 @@
 
   &__title {
     color: $full-black;
-    font-size: 1.8rem;
+    margin-top: 30px;
+    font-size: 2rem;
+    text-align: center;
+
+    @include media($medium-min){
+      font-size: 3rem;
+    }
 
   }
 
@@ -49,7 +60,7 @@
     margin-top: 40px;
     margin-left: 20px;
     padding: 5px 10px;
-    background: $secundary-color;
+    background: $primary-color;
     color: $full-white;
     text-transform: capitalize;
 
@@ -59,7 +70,7 @@
   &__date,
   &__caption,
   &__author-bio {
-    color: hsl(0,0%,60%);
+    color: hsl(0,0%,50%);
     font-size: 1rem;
   }
 
@@ -76,31 +87,42 @@
     }
   }
 
-  &__authorSpace {
+  &__authorSection {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  &__authorSpace {
     padding: 20px;
     padding-right: 10px;
+    max-width: 300px;
     color: $black;
-    display: block;
-    border-top: 2px solid $silver;   
+    display: flex; 
 
-    a{
-      color: $secundary-color;
+    p {
+      margin: 0;
     }
 
+    a{
+      color: $primary-color;
+    }
 
   }
 
   .author-img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 20px;
   }
 
   &__sub-headline-wrapper {
     display: flex;
-    align-content: center;
+    justify-content: center;
+    align-items: baseline;
   }
 
   &__tags{
@@ -120,9 +142,6 @@
     padding-top: 20vh;
     // margin-top: 15vh;
 
-    &__body {
-      font-size: 1.2rem;
-    }
   }
 }
 

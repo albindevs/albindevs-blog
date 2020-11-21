@@ -1,11 +1,11 @@
 
 
 .cards {
-  max-width: 1000px;
+  max-width: 1400px;
   margin: auto;
 
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill,minmax(320px, 1fr));
   justify-content: space-around;
   align-items: start;
   grid-gap: 20px;
@@ -15,14 +15,18 @@
 }
 
 .card{
-  max-width: 280px;
+  width: 100%;
+  max-width: 320px;
+  min-width: 300px;
   margin: 5vh auto;
-  padding: 1rem;
+  // padding: 1rem;
 
-  background: $full-white;
+  // background: $full-white;
   color: $gray;
 
   font-size: 1rem;
+  
+  border-radius: 10px;
 
 
   &__img {
@@ -32,16 +36,11 @@
 
   &__title {
     margin: 0;
+    margin-bottom: 5px;
     color: $full-black;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
-
-  &__author {
-    width: 100%;
-    display: block;
-    border-top: 2px solid $silver;
-  }
-
+  
   &__button {
     width: 100px;
     padding: 5px;
