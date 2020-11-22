@@ -9,9 +9,8 @@
   z-index: -1;
   @include flexCenter;
 
-
-  background: $primary-color;
-  color: $white;
+  background: $white;
+  color: $black;
 
   transform: translate(0,-100vh);
   @include transition;
@@ -38,8 +37,7 @@
 
     &__item {
       margin-bottom: 1rem;
-
-      border-left: 2px solid $primary-color;
+      padding: 10px;
 
       @include transition;
 
@@ -53,6 +51,12 @@
         
         @include transition
       }
+    }
+
+    #contact {
+      background-color: $primary-color;
+      color: $full-white;
+      border-radius: 10px;
     }
   }
 
@@ -79,22 +83,22 @@
 
       &__item {
         height: 100%;
-        margin: 0 0.5rem;
+        margin: 0 0.2rem;
         border-left: 0;
-        padding: 1rem;
-        display: inline;
+        padding: 0.8rem;
         font-size: 1rem;
         @include transition;
 
         &:hover{
-          background: $primary-color;         
+          background: $primary-color;   
+          border-radius: 10px;      
           & > * {
             color: $full-white;
             padding-left: 0;
           }
         }
-
       }
+
     }
   }
 }

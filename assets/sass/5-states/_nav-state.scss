@@ -7,7 +7,6 @@ Rotate menu button into X
   transform: rotate(180deg);
 
   .menu-btn__line {
-    background: $full-white;
     @include transition;
 
     &:nth-child(1) {
