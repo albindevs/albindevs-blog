@@ -49,3 +49,34 @@
   justify-content: center;
   align-items: center;
 }
+
+
+@mixin trippy-gradient($first-color, $second-color, $time: 6s) {
+    background: linear-gradient(136deg, #{$first-color}, #{$second-color});
+    background-size: 400% 400%;
+
+    -webkit-animation: trippy #{$time} ease infinite;
+    -moz-animation: trippy #{$time} ease infinite;
+    animation: trippy #{$time} ease infinite;
+
+    @-webkit-keyframes trippy {
+        0%{background-position:0% 2%}
+        50%{background-position:100% 99%}
+        100%{background-position:0% 2%}
+    }
+    @-moz-keyframes trippy {
+        0%{background-position:0% 2%}
+        50%{background-position:100% 99%}
+        100%{background-position:0% 2%}
+    }
+    @keyframes trippy {
+        0%{background-position:0% 2%}
+        50%{background-position:100% 99%}
+        100%{background-position:0% 2%}
+    }
+}
+
+@mixin button-shaddow {
+  box-shadow: 3px 3px 4px hsla(0, 0, 0, 0.4); 
+  
+}

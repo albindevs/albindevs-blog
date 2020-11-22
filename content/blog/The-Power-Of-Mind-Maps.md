@@ -4,18 +4,18 @@ title: "The Power of Mind Maps"
 description: "Organize information in a memorable way with graphical links and visual elements that are easy to remember."
 
 categories:
-- salud
+- researches
 
 tags:
-- perros
-- cuidados
-- comida
+- learning
+- skill
+- insights
 
-date: 2018-08-14T08:32:19-04:00
+date: 2020-11-17T08:32:19-04:00
 
 
 img: "/images/Mind-maps.svg"
-imgAlternativeText: "mind map"
+imgAlternativeText: "Mind Map"
 
 destacado: True
 

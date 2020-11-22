@@ -21,7 +21,7 @@
             <li class="list__title"><a href="{{ "/" | safeURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}:</a>
                 <ul class="list">
                     {{ range $key, $value := $taxonomy }}
-                    <li class="list__item"> <span>> </span><a href="/{{$taxonomyname}}/{{$key}}">{{ $key }}</a></li>
+                    <li class="list__item"> <span> </span><a href="/{{$taxonomyname}}/{{$key}}">{{ $key }}</a></li>
                     {{ end }}
                 </ul>
             </li>

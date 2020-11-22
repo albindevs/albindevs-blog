@@ -1,0 +1,60 @@
+{{ define "main" }}
+<section class="section portfolio-section">
+    <div class="section-title portfolio-section-title">
+        <img src="/images/laptop.svg" alt="laptop illustration">
+        <h2 class="title">Web Projects</h2>
+    </div>
+    <div class="web-projects-section">
+        <div class="web-project">
+            <div class="web-project__media-container" id="repostery-media">
+                <a href="https://reposterychart.firebaseapp.com/" target="_blank">
+                    <img src="/images/repostery.png" alt="repostery screenshot">
+                </a>
+            </div>
+            <div class="web-project__content">
+                <h2 class="web-project__content-title">&#128202; Repostery</h2>
+                <div class="link" id="link-repostery">
+                    <a href="https://reposterychart.firebaseapp.com/" target="_blank">&#128279; Visit</a>
+                </div>
+                <p>Web app for generating data visualizations about Github users</p>
+                <ul>
+                    <li>
+                        <p class="bullet">&#128736;&#65039;</p>
+                        <p>Built on <b>React js</b> and backend API built on <b>Python Django</b> </p></li>
+                    <li>
+                        <p class="bullet">&#128272;</p>
+                        <p>Users signup with Github accounts using the <b>Oauth2</b> standard</p></li>
+                    <li>
+                        <p class="bullet">&#128200;</p>
+                        <p>Developed following the <b>TDD</b> and <b>CI/CD</b> practices</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="web-project">
+            <div class="web-project__media-container" id="patiks-media">
+                <a href="https://patiks.netlify.com/" target="_blank">
+                    <img src="/images/patiks.png" alt="repostery screenshot">
+                </a>
+            </div>
+            <div class="web-project__content">
+                <h2 class="web-project__content-title">&#128054; Patiks</h2>
+                <div class="link" id="link-patiks">
+                    <a href="https://patiks.netlify.com/" target="_blank">&#128279; Visit</a>
+                </div>
+                <p>Non profit organization website for animal shelter</p>
+                <ul>
+                    <li>
+                        <p class="bullet">&#128736;&#65039;</p>
+                        <p>Developed with <b>HTML5, CSS3</b> and <b>JS</b></p></li>
+                    <li>
+                        <p class="bullet">&#128451;&#65039;</p>
+                        <p>Blog posts built with the static site generator <b>HUGO</b></p></li>
+                    <li>
+                        <p class="bullet">&#127899;&#65039;</p>
+                        <p>Implements a content management system (Netlify <b>CMS</b>)</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
