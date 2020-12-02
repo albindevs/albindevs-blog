@@ -61,19 +61,22 @@
             </span>
         </span>
 
-        <!-- <p class="recommendations-title">Artículos relacionados:</p>
+        <p class="recommendations-title">Artículos relacionados:</p>
         <div class="recommendations">
             {{ $related := .Site.RegularPages.Related . | first 5 }}
             {{ with $related }}
             <ul>
                 {{ range . }}
                 <li class="recommendation-card">
+                    <a href="{{.URL}}">
+                        <img src="{{.Params.img}}" alt="{{.Params.imgAlternativeText}}" itemprop="image url" class="card__img">
+                    </a>
                     <p class="recommendation-card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
                 </li>
                 {{ end }}
             </ul>
             {{ end }}
-        </div> -->
+        </div>
 
         <!-- <div class="comments">
             <div id="disqus_thread"></div>

@@ -4,7 +4,7 @@
     <a href="{{.URL}}"><img src="{{.Params.img}}" alt="{{.Params.imgAlternativeText}}" itemprop="image url"
             class="card__img"></a>
 
-    <h2 itemprop="name headline" class="card__title"><a href="{{.URL}}">{{.Title}}</a></h2>
+    <a href="{{.URL}}"><h2 itemprop="name headline" class="card__title">{{.Title}}</h2></a>
     <time datetime="{{.Date}}" itemprop="datePublished" class="card-blog__date">&#128467;&#65039; {{dateFormat "2 Jan 2006" .Date}}</time>
     <span itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
         <meta itemprop="name" content="{{.Site.Title}}">

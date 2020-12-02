@@ -51,9 +51,9 @@
 }
 
 
-@mixin trippy-gradient($first-color, $second-color, $time: 6s) {
+@mixin trippy-gradient($first-color, $second-color, $time: 5s) {
     background: linear-gradient(136deg, #{$first-color}, #{$second-color});
-    background-size: 400% 400%;
+    background-size: 300% 300%;
 
     -webkit-animation: trippy #{$time} ease infinite;
     -moz-animation: trippy #{$time} ease infinite;

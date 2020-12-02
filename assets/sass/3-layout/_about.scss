@@ -1,0 +1,279 @@
+.about-intro {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+    .about-intro-container {
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        .image-container {
+            display: none;
+            width: auto;
+            min-width: 300px;
+            height: 50%;
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+
+            @include media($x-large-min){
+                display: block;
+            }
+        }
+    }
+
+    #image-top-left {
+        background-image: url('/images/about-pic-2.jpg');
+    }
+    #image-bottom-left {
+        background-image: url('/images/about-pic-3.jpg');
+    }
+    #image-top-right{
+        background-image: url('/images/about-pic-5.jpg');
+    }
+    #image-bottom-right{
+        background-image: url('/images/about-pic-1.jpg');
+    }
+
+
+    .about-intro-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 700px;
+        margin: auto;
+        padding: 20px;
+        padding-top: 70px;
+
+        img {
+            border-radius: 50%;
+            max-width: 200px;
+            margin: 20px 0;
+            @include button-shaddow;
+            @include media($x-large-min){
+                display: none;
+            }
+        }
+
+        &__title {
+            font-weight: normal;
+            text-align: center;
+            font-size: 1.8rem;
+            color: $black;
+            
+            @include media($small-min) {
+                font-size: 3rem;
+            }
+        }
+
+        p {
+            color: $gray;
+            text-align: center;
+            margin: 0;
+            padding: 5px;
+            font-size: 1.2rem;
+        }
+
+        .table-of-contents {
+            padding: 20px 0;
+            p {
+                color: $low-gray;
+                text-align: left;
+                min-width: 40px;
+                padding: 3px 0;
+            }
+
+            .table-item {
+                display: flex;
+            }
+        }
+    }
+}
+
+.about-section {
+    // max-width: 1000px;
+    min-height: 100vh;
+    
+    &__title {
+        color: $black;
+        padding: 20px;
+        font-size: 2rem;
+        font-weight: normal;
+        
+        @include media($medium-min) {
+            font-size: 3rem;
+            padding: 60px;
+        }
+    }
+    
+    &__items {
+        // display: flex;
+        // flex-wrap: wrap;
+        // justify-content: space-around;
+        // align-items: flex-start;
+
+        .about-item {
+            max-width: 1400px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            color: $low-gray;
+
+            @include media($medium-min) {
+                padding: 0 40px;
+            }
+
+            &__image {
+                max-width: 250px;
+                margin: 20px;
+                // visibility: hidden;
+            }
+            &__paragraph {
+                max-width: 600px;
+                margin: 0;
+                padding: 20px;
+                // text-align: center;
+            }
+
+            @include media($medium-min) {
+                &__paragraph:nth-child(odd) {
+                    text-align: right;
+                }
+            }
+
+            .quote {
+                margin: 20px;
+                padding: 10px;
+                border-left: 3px solid $gray;
+                color: $gray;
+                font-style: italic;
+            }
+
+            b {
+                font-size: 100px;
+            }
+        }
+        .about-item:nth-child(even) {
+            flex-wrap: wrap-reverse;
+        }
+    }
+}
+
+.about-section.right {
+    .about-section__title {
+        text-align: right;
+    }
+}
+
+
+.books-list {
+    max-width: 1400px;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: $low-gray;
+    list-style-type: none;
+    
+    li {
+        max-width: 400px;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .book-title {
+        margin: 0;
+        margin-top: 20px;
+        color: $black;
+        font-size: 1.4rem;
+        font-weight: normal;
+        padding: 0 20px;
+        text-align: center;
+    }
+    
+    p {
+        padding: 20px;
+        margin: 0;
+    }
+
+    img {
+        max-height: 150px;
+        @include button-shaddow; 
+    }
+}
+
+
+.albums-container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+    color: $low-gray;
+
+    &__title {
+        margin: 10px 0 40px;
+        text-align: center;
+        // font-size: 1.4rem;
+        // color: $black;
+        // font-weight: bold;
+    }
+
+    .albums-list {
+        display: flex;
+        // justify-content: center;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding: 0;
+        margin: auto;
+
+        li {
+            // display: flex;
+            // padding: 10px;
+            margin: 10px 0;
+
+            .album-info {
+                padding: 5px;
+                max-width: 150px;
+                font-size: 0.9rem;
+            }
+
+            img {
+                max-width: 150px;
+                // margin-right: 20px;
+            }
+            .album-title {
+                font-weight: normal;
+                font-family: $font-family-default;
+                color: $full-black;
+                font-size: 1rem;
+            }
+            p {
+                margin: 0;
+                padding: 0;
+                color: hsl(0, 0, 40);
+            }
+        }
+    }
+}
+
+.synth-gallery {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    // flex-wrap: wrap;
+
+    img {
+        max-width: 33vw;
+
+        @include media($medium-min) {
+            max-width: 16.6vw;
+        }
+    }
+}

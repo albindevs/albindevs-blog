@@ -1,0 +1,48 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 593.6 475.82">
+  <title>patterns</title>
+  <g>
+    <polygon points="483.51 246.13 402.93 199.75 460.31 166.63 287.89 67.08 230.82 99.91 219.35 93.75 287.89 53.83 482.51 166.63 425.88 199.75 492.02 237.94 483.51 246.13" style="fill: #ff5319;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+    <g>
+      <polygon points="93.23 242.44 30.32 206.23 30.32 133.7 93.23 169.91 93.23 242.44" style="fill: #17804c;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <polygon points="155.94 206.23 155.94 133.7 93.23 169.91 93.23 242.44 155.94 206.23" style="fill: #1fa863;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <polygon points="93.13 97.44 30.32 133.7 93.23 169.91 155.94 133.7 93.13 97.44" style="fill: #00e673;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+    </g>
+    <g>
+      <polygon points="225.19 474.32 162.28 438.12 162.28 365.58 225.19 401.79 225.19 474.32" style="fill: #80290d;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <polygon points="287.89 438.12 287.89 365.58 225.19 401.79 225.19 474.32 287.89 438.12" style="fill: #a83611;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <polygon points="225.09 329.32 162.28 365.58 225.19 401.79 287.89 365.58 225.09 329.32" style="fill: #ff5319;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+    </g>
+    <g>
+      <polygon points="529.15 299.13 529.15 202.21 592.1 262.78 529.15 299.13" style="fill: #f7541e;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <polyline points="529.15 299.13 466.2 262.78 529.15 202.21" style="fill: #bf4117;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+    </g>
+    <g>
+      <path d="M279.1,92.93c-.67,7.27-6,14.55-15.82,20.24a54,54,0,0,1-5.74,2.89c-19.09,8.35-45.2,8.43-62.88,0-1.15-.54-2.26-1.12-3.33-1.75-8.21-4.74-12.77-10.81-13.74-17.15-1.31-8.57,4-17.6,15.71-24.38,20.41-11.78,52.62-12.29,71.94-1.14C275.23,77.4,279.82,85.15,279.1,92.93Z" transform="translate(-3.2 -62.09)" style="fill: #f7541e;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <path d="M279.1,165.66v-3.15A15.08,15.08,0,0,1,279.1,165.66Z" transform="translate(-3.2 -62.09)" style="fill: #f7541e;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <path d="M279.1,92.93v72.78c-.69,7.25-6,14.51-15.82,20.19-20.41,11.79-52.63,12.3-71.95,1.14-10-5.78-14.59-13.54-13.85-21.33V97.15h.11c1,6.34,5.53,12.41,13.74,17.15,1.07.63,2.18,1.21,3.33,1.75,17.68,8.44,43.79,8.36,62.88,0a54,54,0,0,0,5.74-2.89C273.14,107.48,278.43,100.2,279.1,92.93Z" transform="translate(-3.2 -62.09)" style="fill: #bf4117;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+    </g>
+    <polygon points="506.2 285.88 287.89 411.59 287.89 398.68 494.73 279.25 506.2 285.88" style="fill: #ff5319;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+    <polygon points="161.98 405.13 92.78 365.58 150.5 332.26 59.58 279.76 289.06 146.25 253.77 126.88 265.25 120.25 310.7 147 81.66 279.25 173.45 332.26 116.08 365.38 162.28 391.88 161.98 405.13" style="fill: #ff5319;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+    <g>
+      <path d="M485.64,387.25c-.67,7.26-6,14.55-15.82,20.24a54,54,0,0,1-5.74,2.88c-19.09,8.35-45.2,8.44-62.88,0a37.46,37.46,0,0,1-3.33-1.74c-8.21-4.74-12.78-10.81-13.74-17.15-1.32-8.58,4-17.6,15.71-24.38,20.41-11.79,52.61-12.29,71.94-1.14C481.77,371.71,486.36,379.47,485.64,387.25Z" transform="translate(-3.2 -62.09)" style="fill: #00e673;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <path d="M485.64,387.25V460c-.69,7.26-6,14.52-15.82,20.2-20.41,11.78-52.63,12.3-71.95,1.14-10-5.78-14.59-13.55-13.85-21.34V391.47h.11c1,6.34,5.53,12.41,13.74,17.15a37.46,37.46,0,0,0,3.33,1.74c17.68,8.45,43.79,8.36,62.88,0a54,54,0,0,0,5.74-2.88C479.68,401.8,485,394.51,485.64,387.25Z" transform="translate(-3.2 -62.09)" style="fill: #00a854;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+    </g>
+    <g>
+      <polygon points="64.45 367.47 64.45 270.55 127.39 331.12 64.45 367.47" style="fill: #2391bf;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <polyline points="64.45 367.47 1.5 331.12 64.45 270.55" style="fill: #176180;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+    </g>
+    <g>
+      <path d="M268.37,261.34c-.66,7.27-6,14.55-15.81,20.24a54.17,54.17,0,0,1-5.75,2.89c-19.09,8.35-45.19,8.43-62.87,0-1.15-.54-2.26-1.12-3.34-1.75-8.21-4.74-12.77-10.81-13.74-17.15-1.31-8.57,4-17.6,15.71-24.38C203,229.4,235.19,228.89,254.51,240,264.5,245.81,269.09,253.56,268.37,261.34Z" transform="translate(-3.2 -62.09)" style="fill: #2391bf;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <path d="M268.37,261.34v72.78c-.69,7.25-6,14.51-15.81,20.19-20.42,11.79-52.63,12.3-72,1.14-10-5.77-14.59-13.54-13.85-21.33V265.56h.11c1,6.34,5.53,12.41,13.74,17.15,1.08.63,2.19,1.21,3.34,1.75,17.68,8.44,43.78,8.36,62.87,0a54.17,54.17,0,0,0,5.75-2.89C262.41,275.89,267.71,268.61,268.37,261.34Z" transform="translate(-3.2 -62.09)" style="fill: #176180;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+    </g>
+    <g>
+      <polygon points="368.61 206 305.7 169.8 305.7 97.26 368.61 133.47 368.61 206" style="fill: #176180;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <polygon points="431.32 169.8 431.32 97.26 368.61 133.47 368.61 206 431.32 169.8" style="fill: #1f80a8;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <polygon points="368.51 61 305.7 97.26 368.61 133.47 431.32 97.26 368.51 61" style="fill: #2391bf;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+    </g>
+    <g>
+      <polygon points="350.84 307.34 350.84 210.42 413.79 270.99 350.84 307.34" style="fill: #0c6;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <polyline points="350.84 307.34 287.89 270.99 350.84 210.42" style="fill: #00a854;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+    </g>
+  </g>
+</svg>

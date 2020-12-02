@@ -1,0 +1,31 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 502.59 372.34">
+  <defs>
+    <radialGradient id="radial-gradient" cx="116.01" cy="306.29" r="36.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e6e6e6"/>
+      <stop offset="1" stop-color="#bfbfbf"/>
+    </radialGradient>
+  </defs>
+  <title>talking</title>
+  <path d="M480.22,342.73c2.18-19,4.35-38.11,3.46-57.22s-5-38.39-14.61-54.93-25.18-30.12-43.74-34.76c-8.63-2.16-17.93-2.33-26.28.74s-15.6,9.65-18.36,18.1c-3.93,12.07,1.66,25.2,9,35.53s16.7,19.46,21.8,31.07a49,49,0,0,1-56.92,67.27" transform="translate(1.5 -123.31)" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 5px"/>
+  <path d="M400.12,494.15S399.59,394,449.59,394s50,100.15,50,100.15Z" transform="translate(1.5 -123.31)" style="fill: #ed1c24;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <circle cx="451.35" cy="230.8" r="33.78" style="fill: #ed1c24;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <path d="M291.35,124.85l-42,34H204.8a12,12,0,0,1-12-12v-10a12,12,0,0,1,12-12Z" transform="translate(1.5 -123.31)" style="fill: #0073e6;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <path d="M359.72,124.81l-12,12v10a12,12,0,0,1-12,12H261.11l42-34h31.74l0,0Z" transform="translate(1.5 -123.31)" style="fill: #ed1c24;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <path d="M272.74,231.22l-20.78,17H207.18a12,12,0,0,1-12-12v-10a12,12,0,0,1,12-12h44.57Z" transform="translate(1.5 -123.31)" style="fill: #0073e6;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <path d="M358.68,214.18l-12,12v10a12,12,0,0,1-12,12H260.32l20.79-17-21-17h73.71l0,0Z" transform="translate(1.5 -123.31)" style="fill: #ed1c24;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <path d="M354.07,349.32l-12,12v10a12,12,0,0,1-12,12H310.9a12,12,0,0,1-12-12v-10a12,12,0,0,1,12-12h18.33l0,0Z" transform="translate(1.5 -123.31)" style="fill: #ed1c24;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <path d="M238.13,203.57H163.57a12,12,0,0,1-12-12v-10l-12-12h24.88l0,0h73.71l-21,17Z" transform="translate(1.5 -123.31)" style="fill: #0073e6;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <path d="M304.77,181.53v10a12,12,0,0,1-12,12H248.23l-21-17,21-17h44.59A12,12,0,0,1,304.77,181.53Z" transform="translate(1.5 -123.31)" style="fill: #ed1c24;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <path d="M238,259.45l-41.52,34H163.72a12,12,0,0,1-12-12v-10l-12-12h24.88l0,0Z" transform="translate(1.5 -123.31)" style="fill: #0073e6;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <path d="M307.37,271.45v10a12,12,0,0,1-12,12H209l41.52-34h44.83A12,12,0,0,1,307.37,271.45Z" transform="translate(1.5 -123.31)" style="fill: #ed1c24;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <path d="M400.12,268.47l-46.05,80.85,58.31-72.87C416.64,252.51,400.12,268.47,400.12,268.47ZM409,275c-1.57,2.29-4.31,3.13-6.12,1.89s-2-4.11-.42-6.4,4.32-3.13,6.13-1.89S410.53,272.7,409,275Z" transform="translate(1.5 -123.31)" style="fill: #e6e6e6;stroke: #000;stroke-miterlimit: 10"/>
+  <path d="M409,275c-1.57,2.29-4.31,3.13-6.12,1.89s-2-4.11-.42-6.4,4.32-3.13,6.13-1.89S410.53,272.7,409,275Z" transform="translate(1.5 -123.31)" style="fill: none;stroke: #000;stroke-miterlimit: 10"/>
+  <path d="M99.47,268.47s-16.52-16-12.27,8l58.32,72.87Zm-2.71,8.41c-1.81,1.24-4.55.4-6.13-1.89s-1.39-5.15.42-6.4,4.55-.39,6.12,1.89S98.56,275.63,96.76,276.88Z" transform="translate(1.5 -123.31)" style="stroke: #000;stroke-miterlimit: 10;fill: url(#radial-gradient)"/>
+  <path d="M409,275c-1.57,2.29-4.31,3.13-6.12,1.89s-2-4.11-.42-6.4,4.32-3.13,6.13-1.89S410.53,272.7,409,275Z" transform="translate(1.5 -123.31)" style="fill: none;stroke: #000;stroke-miterlimit: 10"/>
+  <path d="M19.36,342.73c-2.18-19-4.35-38.11-3.45-57.22s5-38.39,14.61-54.93,25.18-30.12,43.74-34.76c8.63-2.16,17.93-2.33,26.27.74s15.6,9.65,18.36,18.1c3.93,12.07-1.65,25.2-9,35.53s-16.7,19.46-21.8,31.07A49,49,0,0,0,145,348.53" transform="translate(1.5 -123.31)" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 5px"/>
+  <path d="M99.47,494.15S100,394,50,394,0,494.15,0,494.15Z" transform="translate(1.5 -123.31)" style="fill: #0073e6;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <circle cx="51.23" cy="230.8" r="33.78" style="fill: #0073e6;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <path d="M145.52,349.32l12,12v10a12,12,0,0,0,12,12h19.13a12,12,0,0,0,12-12v-10a12,12,0,0,0-12-12h0l-18.29,0Z" transform="translate(1.5 -123.31)" style="fill: #0073e6;stroke: #000;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <path d="M96.76,276.88c-1.81,1.24-4.55.4-6.13-1.89s-1.39-5.15.42-6.4,4.55-.39,6.12,1.89S98.56,275.63,96.76,276.88Z" transform="translate(1.5 -123.31)" style="fill: none;stroke: #000;stroke-miterlimit: 10"/>
+  <path d="M96.76,276.88c-1.81,1.24-4.55.4-6.13-1.89s-1.39-5.15.42-6.4,4.55-.39,6.12,1.89S98.56,275.63,96.76,276.88Z" transform="translate(1.5 -123.31)" style="fill: none;stroke: #000;stroke-miterlimit: 10"/>
+</svg>

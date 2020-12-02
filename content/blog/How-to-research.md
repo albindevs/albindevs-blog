@@ -4,13 +4,12 @@ title: "How to Research"
 description: "breve descripcion del articulo"
 
 categories:
-# - ej:salud
+- researches
 
 tags:
-# - ej:perros
-# - ej:gatos
-# - ej:prevencion
-# - etc
+- learning
+- skill
+- insights
 
 
 date: 2020-11-20T11:02:04-04:00

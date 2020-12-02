@@ -30,11 +30,6 @@
 
     font-size: 1.8rem;
 
-    
-    
-    
-
-
     &__item {
       margin-bottom: 1rem;
       padding: 10px;
@@ -62,6 +57,9 @@
 
       &:hover {
         box-shadow: none;
+        a {
+          color: $full-white;
+        }
       }
     }
   }
