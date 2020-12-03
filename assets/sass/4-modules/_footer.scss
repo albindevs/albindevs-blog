@@ -3,7 +3,7 @@
   @include flexCenter;
   flex-direction: column;
 
-  background: $bars-color;
+  background: hsl(0, 0, 90%);
   color: $black;
 
   font-size: 1rem;
@@ -28,6 +28,11 @@
       padding-left: 15px;
     }
 
+  }
+
+  .footer__mail {
+    font-weight: normal;
+    margin: 20px 0;
   }
 
 

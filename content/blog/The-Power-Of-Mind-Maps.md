@@ -4,9 +4,10 @@ title: "The Power of Mind Maps"
 description: "Organize information in a memorable way with graphical links and visual elements that are easy to remember."
 
 categories:
-- researches
+- knowledge management
 
 tags:
+- researches
 - learning
 - skill
 - insights

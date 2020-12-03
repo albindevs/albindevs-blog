@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-US"
-title = "Albindevs"
+title = "Albindevs - Web Developer"
 
 enableRobotsTXT = true
 disableAliases = true
@@ -26,7 +26,7 @@ logoUrl = "/images/logo-ad.svg"
 instagramUrl = "https://instagram.com/albindevs.blog"
 instagramUser = "@albindevs.blog"
 
-# themeColor = "#f19e22"
+themeColor = "#6a0dad"
 # repo = "https://github.com/squareflaw/patikscol"
 
 # add redirects/headers

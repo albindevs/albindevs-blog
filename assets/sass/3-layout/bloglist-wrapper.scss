@@ -1,24 +1,42 @@
 .bloglist-wrapper{
   max-width: 1400px;
-  min-height: 75vh;
   margin: auto;
+  min-height: 100vh;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between; 
+  // align-items: start;
 
   .section-blog{
     margin: 0;
   }
 
   .categories{
-    width: 90%;
-    margin: auto;
     margin-bottom: 20px;
+    font-size: 1.2rem;
     padding: 20px;
+    
+    .categories__title {
+      font-family: $font-family-display;
+      font-size: 2rem;
+      font-weight: normal;
+      color: #262626;
+      text-align: center;
+      // border-bottom: 5px solid $primary-color;
+      max-width: 300px;
+      margin: auto;
+      padding: 10px 0;
+    }
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;
-
-    background: $full-white;
+    .categories__list-container {
+      max-width: 600px;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 10px 0;
+    }
   }
 
   .list {
@@ -29,40 +47,38 @@
       color: $secundary-color;
     }
 
-    &__title{
-      // padding-left: 20px;
-      font-size: 1.5rem;
-      color: $black;
-      text-transform: capitalize;
-    }
-
     &__item {
-      padding-left: 20px;
+      padding: 0;
+      margin: 0;
       color: $gray;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
-  @include media($large-min){
-    // display: grid;
-    // grid-template-columns: repeat(4, 1fr);
-    // align-items: flex-start;
+  // @include media($large-min){
+  //   display: grid;
+  //   grid-template-columns: repeat(4, 1fr);
+  //   align-items: flex-start;
     
-    // .section-blog{
-    //   grid-column: 3 span;
+  //   .section-blog{
+  //     grid-column: 3 span;
 
-    //   .section-title{
-    //     margin-top: 0;
-    //   }
-    // }
+  //     .section-title{
+  //       margin-top: 0;
+  //     }
+  //   }
 
 
-    // .categories{
-    //   width: 100%;
-    //   max-width: 300px;
-    //   margin: 0 20px;
-    //   // margin-left: 20px;
-    //   display: block;
+  //   .categories{
+  //     width: 100%;
+  //     max-width: 300px;
+  //     margin: 0 20px;
+  //     // margin-left: 20px;
+  //     display: block;
 
-    // }
-  }
+  //   }
+  // }
 }

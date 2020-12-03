@@ -4,8 +4,6 @@
   padding: 20px;
   padding-bottom: 10px;
 
-  color: $secundary-color;
-
   text-align: center;
   font-size: 1.5rem;
 }
@@ -15,26 +13,34 @@
 
   ul{
     padding: 0; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
   }
 }
 .recommendation-card{
+  list-style-type: none;
+  width: 250px;
+  padding: 10px;
+  margin: 10px 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
 
 
   img {
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
-    height: auto;
+    width: 250px;
+    height: 250px;
+    margin: auto;
   }
 
   &__title{
-    padding-left: 10px;
     color: $black;
-    border-left: 2px solid $secundary-color; 
+    font-family: $font-family-display;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: normal;
+    margin: 0;
   }
 
 }

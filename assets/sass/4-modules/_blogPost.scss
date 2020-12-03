@@ -1,4 +1,6 @@
 
+
+
 .blogPost {
   max-width: 800px;
   margin: auto;
@@ -6,14 +8,7 @@
   background: $full-white;
 
  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: $black;
-  }
+ 
 
   b, strong {
     color: $low-gray;
@@ -31,6 +26,18 @@
     width: 100vw;
     max-width: 700px;
     margin: auto;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      font-weight: normal;
+      font-size: 1.7rem;
+      padding-top: 20px;
+    }
   }
   &__img {
     padding: 20px;
@@ -45,8 +52,9 @@
   &__title {
     color: $full-black;
     margin-top: 30px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
+    font-weight: 500;
 
     @include media($medium-min){
       font-size: 3rem;
@@ -140,7 +148,7 @@
 
   @include media($medium-min){
     max-width: 1000px;
-    padding-top: 20vh;
+    padding-top: 15vh;
     // margin-top: 15vh;
 
   }
