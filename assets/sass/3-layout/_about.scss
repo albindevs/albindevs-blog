@@ -42,7 +42,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         max-width: 700px;
         margin: auto;
         padding: 20px;
@@ -51,8 +51,7 @@
         img {
             border-radius: 50%;
             max-width: 200px;
-            margin: 20px 0;
-            @include button-shaddow;
+            margin: 20px auto;
             @include media($x-large-min){
                 display: none;
             }
@@ -60,18 +59,20 @@
 
         &__title {
             font-weight: normal;
-            text-align: center;
             font-size: 1.8rem;
+            margin: 10px 0;
             color: $black;
             
             @include media($small-min) {
                 font-size: 3rem;
             }
+            @include media($large-min){
+                text-align: center;
+            }
         }
 
         p {
             color: hsl(0, 0, 35%);
-            text-align: center;
             margin: 0;
             padding: 5px;
             font-size: 1rem;
@@ -83,6 +84,7 @@
 
         .table-of-contents {
             padding: 20px 0;
+            margin: auto;
             p {
                 text-align: left;
                 min-width: 30px;

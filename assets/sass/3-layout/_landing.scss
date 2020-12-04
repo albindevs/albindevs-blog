@@ -17,17 +17,16 @@
 
     .landing__text {
         padding: 20px;
-        margin: auto;
-        text-align: center;
+        margin: 0 auto;
         
-        @include media($small-min) {
-            text-align: left;
+        @include media($medium-min) {
+            margin: auto;
         }
     }
 
     &__title {
         font-weight: normal;
-        font-size: 1.8rem;
+        font-size: 2.5rem;
         color: $black;
         margin: 0;
         // font-family: $font-family-default;
@@ -38,6 +37,7 @@
     }
 
     &__title.secundary {
+        font-size: 1.8rem;
         @include media($medium-min) {
             font-size: 2.5rem;
         }
