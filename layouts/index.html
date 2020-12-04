@@ -1,4 +1,16 @@
 {{ define "main" }}
+<div class="landing">
+    <img class="landing__image" src="/images/landing.png" alt="landing page illustration">
+    <div class="landing__text">
+        <div>
+            <p>Hello! my name is Albin Garcia and I am a </p>
+            <h2 class="landing__title">Web Developer</h2>
+            <p>who loves composition and likes to</p>
+            <h2 class="landing__title secundary"><span>Write</span>,<span> Design</span> & <span>Code</span></h2>
+        </div>
+    </div>
+</div>
+
 <section itemscope="" itemtype="https://schema.org/Blog" class="section section-blog">
     <div class="section-title">
         <h4 class="title">&#128240; Recent posts</h4>
@@ -11,25 +23,6 @@
         {{ end }}
     </div>
 
-    <p class="see-all"> <a href="./blog/" class="button-all">&#128218; All</a></p>
-</section>
-
-<section itemscope="" itemtype="https://schema.org/Blog" class="section section-blog">
-    <div class="section-title">
-        <h4 class="title">&#10024; Highlights</h4>
-        <!-- <img src="/images/blog-icon.svg" alt="pawn prints logo"> -->
-    </div>
-
-    <div class="cards">
-        {{ range (.Paginate ( where site.RegularPages "Section" "blog" | first 3 )).Pages}}
-        {{if eq .Params.destacado true}}
-
-        {{ block "article-card-top" . }}{{ partial "post-card.html" . }}{{ end }}
-
-        {{end}}
-        {{ end }}
-    </div>
-
-    <p class="see-all"> <a href="/blog/" class="button-all">&#128218; All</a></p>
+    <p class="see-all"> <a href="./blog/" class="button-all">&#128218; Go to blog</a></p>
 </section>
 {{end}}

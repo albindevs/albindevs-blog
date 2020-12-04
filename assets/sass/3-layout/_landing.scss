@@ -1,0 +1,59 @@
+.landing {
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 40px;
+
+    &__image {
+        max-height: 700px;
+        width: auto;
+        max-width: 80vw;
+    }
+
+    .landing__text {
+        padding: 20px;
+        
+        @include media($large-min) {
+            padding-left: 5vw;
+        }
+    }
+
+    &__title {
+        font-weight: normal;
+        font-size: 1.8rem;
+        color: $black;
+        margin: 0;
+        // font-family: $font-family-default;
+
+        @include media($large-min) {
+            font-size: 3.5rem;
+        }
+    }
+
+    &__title.secundary {
+        @include media($large-min) {
+            font-size: 2.5rem;
+        }
+    }
+
+
+    p {
+        margin: 0;
+
+        @include media($large-min) {
+            font-size: 1.4rem;
+        }
+    }
+
+    span:nth-child(1) {
+        color: $orange;
+    }
+    span:nth-child(2) {
+        color: $blue;
+    }
+    span:nth-child(3) {
+        color: $red;
+    }
+} 
