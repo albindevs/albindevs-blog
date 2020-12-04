@@ -5,18 +5,23 @@
     align-items: center;
     min-height: 100vh;
     padding-top: 40px;
+    overflow: hidden;
 
     &__image {
         max-height: 700px;
         width: auto;
         max-width: 80vw;
+        position: relative;
+        right: 2px;
     }
 
     .landing__text {
         padding: 20px;
+        margin: auto;
+        text-align: center;
         
-        @include media($large-min) {
-            padding-left: 5vw;
+        @include media($small-min) {
+            text-align: left;
         }
     }
 
@@ -27,13 +32,13 @@
         margin: 0;
         // font-family: $font-family-default;
 
-        @include media($large-min) {
+        @include media($medium-min) {
             font-size: 3.5rem;
         }
     }
 
     &__title.secundary {
-        @include media($large-min) {
+        @include media($medium-min) {
             font-size: 2.5rem;
         }
     }
@@ -42,7 +47,7 @@
     p {
         margin: 0;
 
-        @include media($large-min) {
+        @include media($medium-min) {
             font-size: 1.4rem;
         }
     }

@@ -1,46 +1,27 @@
-.illustrations {
-  margin-top: 10vh;
+.skills-preview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 
-  @include media($small-min){      
-    max-width: 1000px;
-    margin: auto;
-
-    .illustration {
-      margin: 15vw 0; 
-      height: 250px;
-
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-
-      background: $primary-color;
-
-      .illustration__img{
-        height: 100%;
-      }
-
-
-      .illustration__content{
-        max-width: 400px;
-
-        align-self: flex-start;
-
-        background: $full-white;
-        box-shadow: 2px 2px 1px 1px rgba($full-black,0.25);
-
-        transform: translate(-20%, -20%);
-      }
-
-
-
-      &:nth-child(2) {
-        flex-direction: row-reverse;
-        background: $secundary-color;
-        
-        .illustration__content {
-          transform: translate(20%, -20%);          
-        }
-      }
+  &__text {
+    padding: 20px;
+    font-size: 1.2rem;
+    max-width: 700px;
+    color: $low-gray;
+    
+    @include media($medium-min) {
+      font-size: 1.5rem;
     }
+    
+    @include media($large-min) {
+      max-width: 500px;
+    }   
+  }
+
+  img {
+    width: 100vw;
+    max-width: 700px;
+    padding: 20px;
   }
 }

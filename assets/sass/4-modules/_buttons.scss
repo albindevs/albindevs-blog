@@ -1,6 +1,5 @@
 .btn-cta {
-    display: flex;
-    align-items: center;
+    display: inline-block;
     margin: 20px 0;
     padding: 10px;
     border-radius: 10px;
@@ -24,8 +23,15 @@
 
 }
 
+.btn-primary {
+    background-color: $primary-color;
+    color: $full-white;
+}
+
 .btn-cv {
     background-color: $blue;
     color: $white;
     margin-bottom: 40px;
+    display: flex;
+    align-items: center;
 }
