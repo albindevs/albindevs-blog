@@ -26,111 +26,111 @@
     @include media($large-min) {
         justify-content: space-around;
     }
+}
+
+.web-project {
+    width: 90vw;
+    max-width: 500px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: $full-white;
+    box-shadow: 5px 5px 5px hsla(0, 0, 0, 0.25);
+    border-radius: 15px;
     
-    .web-project {
-        width: 90vw;
-        max-width: 500px;
-        margin: 20px;
+    @include media($medium-min){
+        max-width: 600px;
+    }
+
+    &__media-container {
+        width: 100vw;
+        padding: 20px;
+        
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
-        background-color: $full-white;
-        box-shadow: 5px 5px 5px hsla(0, 0, 0, 0.25);
-        border-radius: 15px;
+        align-items: center;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
         
-        @include media($medium-min){
-            max-width: 600px;
-        }
-
-        &__media-container {
-            width: 100vw;
-            padding: 20px;
-            
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        @include media($medium-min) {
+            max-width: 300px;
+            justify-content: space-around;
             border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-            
-            @include media($medium-min) {
-                max-width: 300px;
-                justify-content: space-around;
-                border-top-left-radius: 15px;
-                border-bottom-left-radius: 15px;
-                border-top-right-radius: 0;
-            }
+            border-bottom-left-radius: 15px;
+            border-top-right-radius: 0;
+        }
+    }
+
+    #repostery-media{
+        @include trippy-gradient(#00bf8e, #ac00df);
+    }
+
+    #patiks-media{
+        @include trippy-gradient(#ff0036, #fffa00);
+    }
+
+    &__content {
+        width: 100vw;
+        padding: 20px;
+        
+        @include media($medium-min) {
+            max-width: 300px;
         }
 
-        #repostery-media{
-            @include trippy-gradient(#00bf8e, #ac00df);
+        &-title {
+            color: $black;
+            font-family: $font-family-default;
+            font-size: 2rem;
         }
 
-        #patiks-media{
-            @include trippy-gradient(#ff0036, #fffa00);
+        @include media($medium-min) {
+            font-size: 1.2rem;
         }
 
-        &__content {
-            width: 100vw;
-            padding: 20px;
-            
-            @include media($medium-min) {
-                max-width: 300px;
-            }
-
-            &-title {
-                color: $black;
-                font-family: $font-family-default;
-                font-size: 2rem;
-            }
+        .link {
+            margin: 20px 0;
 
             @include media($medium-min) {
-                font-size: 1.2rem;
+                position: relative;
+                right: 35px;
             }
 
-            .link {
-                margin: 20px 0;
-
-                @include media($medium-min) {
-                    position: relative;
-                    right: 35px;
-                }
-
-                a {
-                    padding: 10px;
-                    border-radius: 8px;
-                    @include button-shaddow; 
-                    @include transition;
-                    &:hover {
-                        box-shadow: none
-                    }
+            a {
+                padding: 10px;
+                border-radius: 8px;
+                @include button-shaddow; 
+                @include transition;
+                &:hover {
+                    box-shadow: none
                 }
             }
+        }
 
-            #link-repostery a {
-                background-color: hsl(330, 100, 45);
-                color: $full-white;
-            }
-            
-            #link-patiks a {
-                background-color: hsl(15, 100, 50);
-                color: $full-white;
-            }
+        #link-repostery a {
+            background-color: hsl(330, 100, 45);
+            color: $full-white;
+        }
+        
+        #link-patiks a {
+            background-color: hsl(15, 100, 50);
+            color: $full-white;
+        }
 
-            p {
-                margin: 10px;
-            }
-            
+        p {
+            margin: 10px;
+        }
+        
 
-            ul {
-                list-style-type: none;
-                padding: 0;
-                margin: 0;
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
 
-                li {
-                    display: flex;
-                    .bullet {
-                        margin-right: 10px;
-                    }
+            li {
+                display: flex;
+                .bullet {
+                    margin-right: 10px;
                 }
             }
         }

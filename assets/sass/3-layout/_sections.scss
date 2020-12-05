@@ -1,22 +1,20 @@
 .section{
   max-width: 1400px;
   margin: auto;
-  padding-top: 80px;
+  padding-bottom: 80px;
 
   
 
   .see-all {
     max-width: 400px;
     margin: auto;
-    margin-bottom: 40px;
 
-    background: $white;
-
+    color: $low-gray;
     text-align: center;
 
 
     a {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
       padding: 10px;
       border-radius: 5px;
 
@@ -174,4 +172,45 @@ a.insta-link {
       }
     }
   }
+}
+.portfolio-preview {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  &__text {
+    padding: 20px;
+    font-size: 1.2rem;
+    max-width: 700px;
+    color: $low-gray;
+    margin: auto;
+    
+    @include media($medium-min) {
+      font-size: 1.5rem;
+    }
+    
+    @include media($large-min) {
+      max-width: 500px;
+    }  
+
+    img {
+      max-width: 400px;
+      margin: auto;
+    }
+    
+    p {
+      margin: 10px 0;
+    }
+
+    .btn-cta {
+      background-color: hsl(15, 80%, 45%);
+      color: $full-white;
+      margin: 10px 0;
+    }
+  }
+
 }

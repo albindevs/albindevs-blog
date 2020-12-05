@@ -23,22 +23,65 @@
         {{ end }}
     </div>
 
-    <p class="see-all"> <a href="./blog/" class="button-all">&#128218; Go to blog</a></p>
+    <p class="see-all"> <a href="./blog/" class="button-all">&#128279; Blog</a></p>
 </section>
 
 <section class="section">
     <div class="section-title">
-        <h4 class="title">&#128187; I Write code</h4>
+        <h4 class="title">&#128187; Work</h4>
     </div>
 
     <div class="skills-preview">
         <div class="skills-preview__text">
             <p>This is my toolbox. If you want a website or a great developer for your team with these skills, we can get in touch!</p>
-            <a class="btn-cta btn-primary" href="/contact/" class=".menu-nav__item__link">&#9993;&#65039; Contact</a>
+            <a class="btn-cta btn-primary" href="/contact/">&#9993;&#65039; Contact</a>
         </div>
         <img src="/images/skills.png" alt="CV illustration with skills">
     </div>
 
-    <p class="see-all"> <a href="./skills/" class="button-all">&#128736;&#65039; Go to Skills</a></p>
+    <p class="see-all"> <a href="./skills/" class="button-all">&#128279; Skills</a></p>
+</section>
+
+<section class="section">
+    <div class="section-title">
+        <h4 class="title">&#128241; Latest project</h4>
+    </div>
+
+    <div class="portfolio-preview">
+        <div class="web-project">
+            <div class="web-project__media-container" id="repostery-media">
+                <a href="https://reposterychart.firebaseapp.com/" target="_blank">
+                    <img src="/images/repostery.png" alt="repostery screenshot">
+                </a>
+            </div>
+            <div class="web-project__content">
+                <h2 class="web-project__content-title">&#128202; Repostery</h2>
+                <div class="link" id="link-repostery">
+                    <a href="https://reposterychart.firebaseapp.com/" target="_blank">&#128279; Visit</a>
+                </div>
+                <p>Web app for generating data visualizations about Github users</p>
+                <ul>
+                    <li>
+                        <p class="bullet">&#128736;&#65039;</p>
+                        <p>Built on <b>React js</b> and backend API built on <b>Python Django</b> </p>
+                    </li>
+                    <li>
+                        <p class="bullet">&#128272;</p>
+                        <p>Users signup with Github accounts using the <b>Oauth2</b> standard</p>
+                    </li>
+                    <li>
+                        <p class="bullet">&#128200;</p>
+                        <p>Developed following the <b>TDD</b> and <b>CI/CD</b> practices</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="portfolio-preview__text">
+            <img src="/images/laptop.svg" alt="laptop illustration">
+            <p>You can take a look at my projects here</p>
+            <a class="btn-cta" href="/portfolio/">&#127912; Portfolio</a>
+        </div>
+    </div>
 </section>
 {{end}}
