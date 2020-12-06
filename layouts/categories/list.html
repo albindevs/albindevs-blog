@@ -3,7 +3,7 @@
 <div class="bloglist-wrapper">
 
 
-  <section itemscope="" itemtype="https://schema.org/Blog" class="section section-blog">
+  <section itemscope="" itemtype="https://schema.org/Blog" class="section section-blog" style="padding-top: 80ox;">
         <div class="section-title">
           {{ $lastUrlElement := index (last 1 (split (delimit (split .URL "/") "," "") ",")) 0 }}
           <h4 class="title">{{$lastUrlElement}}</h4>

@@ -16,7 +16,10 @@ date: 2020-11-17T08:32:19-04:00
 
 
 img: "/images/Mind-maps.svg"
+imgSocial: "/images/mind-maps-og.png"
 imgAlternativeText: "Mind Map"
+
+igPost: https://www.instagram.com/p/CHtdxnUFe2T/
 
 destacado: True
 

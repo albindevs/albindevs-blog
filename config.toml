@@ -1,6 +1,6 @@
-baseURL = "/"
+baseURL = "https://albindevs.netlify.app"
 languageCode = "en-US"
-title = "Albindevs - Web Developer"
+title = "Albindevs"
 
 enableRobotsTXT = true
 disableAliases = true
@@ -13,18 +13,18 @@ authorImg = "/images/avatar.jpg"
 AuthorBio = "The conception of an idea until its execution is a process that I love to be part of as a developer, it really provides my with a lot of joy and satisfaction."
 GitHubUser = "albindevs"
 IgAccount = "@albindevs"
-# googleAnalyticsId = "UA-123606970-1"
+googleAnalyticsId = "UA-123606970-2"
 
-description = "Albin Garcia is a software developer..."
+description = "Hi! I am Albin Garcia, A Web Developer who likes to write, design mind maps and code"
 
 logoUrl = "/images/logo-ad.svg"
 # logoUrlPng = "/images/pawprint-logo.png"
 
-# socialMediaImg = "/images/pawprint-logo.svg"
-# socialMediaImgPng = "/images/banner-trans.png"
+socialMediaImgPng = "/images/social-landing.png"
 
 instagramUrl = "https://instagram.com/albindevs.blog"
 instagramUser = "@albindevs.blog"
+twitterUser = "@albindevs"
 
 themeColor = "#6a0dad"
 # repo = "https://github.com/squareflaw/patikscol"

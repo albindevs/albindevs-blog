@@ -29,11 +29,16 @@
                     {{.Content}}
                 </div>
                 
-                <div class="blogPost__authorSection">
-                    <a href="https://twitter.com/home?status={{.Title}} {{.Permalink}}" target="_blank" class="share-button">
-                    <img src="/images/twitter-logo-color.svg" alt="Twitter share button" class="share__tw"/> 
-                    Share on Twitter
-                    </a>
+                <div class="share-section">
+                    <p>&#128640; Share this post &#127756;</p>
+                    <div class="share-section__container">
+                        <a href="https://twitter.com/intent/tweet?url={{.Permalink}}&text={{.Title}}&via=albindevs" target="_blank" class="share-button">
+                            <img src="/images/twitter-logo-color.svg" alt="Twitter share button" /> 
+                        </a>
+                        <a href="{{.Params.igPost}}" target="_blank" class="share-button share-ig">
+                            <img src="/images/ig-outline.svg" alt="Instagram share button"/> 
+                        </a>
+                    </div>
                 </div>
             </div>
 

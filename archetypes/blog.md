@@ -16,8 +16,11 @@ tags:
 date: {{ .Date }}
 
 
-img: "/images/example.jpg"
+img: "/images/example.svg"
+imgSocial: "/images/example.png"
 imgAlternativeText: "Texto alternativo para la imagen"
+
+igPost: 
 
 destacado: false
 
