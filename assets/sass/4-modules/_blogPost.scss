@@ -25,7 +25,7 @@
 
   &__body {    
     width: 100vw;
-    max-width: 700px;
+    max-width: 720px;
     margin: auto;
 
     h1,
@@ -36,12 +36,17 @@
     h6 {
       color: $black;
       font-weight: normal;
-      font-size: 1.7rem;
+      font-size: 1.8rem;
       padding-top: 20px;
+
+      @include media($medium-min){
+        font-size: 2.1rem;
+      }
     }
   }
   &__img {
     padding: 20px;
+    margin: auto;
   }
 
   &__author-bio{

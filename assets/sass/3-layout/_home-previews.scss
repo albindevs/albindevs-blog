@@ -5,12 +5,18 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
+
+   @include media($large-min) {
+    overflow: visible;
+   }
 
   &__text {
     padding: 20px;
     font-size: 1.2rem;
     max-width: 700px;
     color: $low-gray;
+    visibility: hidden;
     
     @include media($medium-min) {
       font-size: 1.5rem;
@@ -35,6 +41,7 @@
     margin: auto;
     padding: 20px;
     padding-bottom: 40px;
+    visibility: hidden;
     
     @include media($large-min){
       padding: 40px;
