@@ -19,7 +19,8 @@ function isInViewport(el) {
     const menuNav = document.querySelector('.menu-nav');
     const NavItems = document.querySelectorAll('.menu-nav__item');
     
-    const skills = document.querySelector('.skills-preview');
+    const landingSkills = document.querySelector('.skills-preview');
+    const landingPortfolio = document.querySelector('.portfolio-preview');
     
     let cards = document.querySelectorAll('.card');
 
@@ -48,8 +49,12 @@ function isInViewport(el) {
             cardsDistribution();
         }
 
-        if (skills && isInViewport(skills)) {
-            skills.classList.add('shown');
+        if (landingSkills && isInViewport(landingSkills)) {
+            landingSkills.classList.add('shown');
+        }
+
+        if (landingPortfolio && isInViewport(landingPortfolio)) {
+            landingPortfolio.classList.add('shown');
         }
     });
 

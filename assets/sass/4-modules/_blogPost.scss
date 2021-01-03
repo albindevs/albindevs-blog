@@ -12,7 +12,7 @@
  
 
   b, strong {
-    color: $low-gray;
+    font-weight: bold;
   }
 
   
@@ -35,7 +35,6 @@
     h5,
     h6 {
       color: $black;
-      font-weight: normal;
       font-size: 1.8rem;
       padding-top: 20px;
 
@@ -60,7 +59,6 @@
     margin-top: 30px;
     font-size: 1.8rem;
     text-align: center;
-    font-weight: 500;
 
     @include media($medium-min){
       font-size: 3rem;

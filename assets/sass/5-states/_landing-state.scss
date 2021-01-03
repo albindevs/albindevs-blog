@@ -46,3 +46,55 @@
         }
     }
 }
+
+.portfolio-preview.shown {
+    visibility: visible;
+
+    .portfolio-preview__text .illustration-container {
+        opacity: 0;
+        animation: displayLaptop 1s ease-in-out forwards;
+
+        @keyframes displayLaptop {
+            0%{
+                transform: translateY(-20%);
+            }
+            100%{
+                opacity: 1;
+                transform: translateX(0%);
+            }
+        }
+    }
+
+    .portfolio-preview__text .btn-cta {
+        animation: displayBTN 1s ease-in-out forwards;
+        animation-delay: 2s;
+        
+        @keyframes displayBTN {
+            0%{
+                transform: scale(0);
+            }
+            100%{
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    }
+
+    .web-project {
+        opacity: 0;
+        animation: displayProject 1s ease-in-out forwards;
+        animation-delay: 1s;
+
+        @keyframes displayProject {
+            0%{
+                transform: translateX(-20%);
+            }
+            100%{
+                opacity: 1;
+                transform: translateX(0%);
+            }
+        }
+    }
+
+    
+}
