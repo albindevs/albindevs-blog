@@ -20,13 +20,14 @@
   &__caption,
   &__body{
     padding: 2px 20px;
-    color: hsl(0,0%,35%);
+    color: hsl(0,0%,25%);
   }
 
   &__body {    
     width: 100vw;
     max-width: 720px;
     margin: auto;
+    line-height: 1.6;
 
     h1,
     h2,
@@ -35,8 +36,11 @@
     h5,
     h6 {
       color: $black;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
+      font-weight: bold;
       padding-top: 20px;
+      line-height: 1.2;
+      
 
       @include media($medium-min){
         font-size: 2.1rem;
@@ -55,9 +59,9 @@
 
 
   &__title {
-    color: $full-black;
+    color: $black;
     margin-top: 30px;
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: center;
 
     @include media($medium-min){
