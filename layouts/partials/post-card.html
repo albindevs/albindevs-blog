@@ -6,6 +6,7 @@
 
     <div class="card__data">
         <a href="{{.URL}}"><h2 itemprop="name headline" class="card__title">{{.Title}}</h2></a>
+        <p>{{.Description}}</p>
         <time datetime="{{.Date}}" itemprop="datePublished" class="card-blog__date">&#128467;&#65039; {{dateFormat "2 Jan 2006" .Date}}</time>
     </div>
     <span itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">

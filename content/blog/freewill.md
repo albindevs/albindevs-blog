@@ -24,11 +24,15 @@ igPost:
 
 destacado: false
 
-draft: false
+draft: True
 
 ---
 
 Atención, atención: Este presente experimento está a punto de explotar. **Se prendió esta mierda**
+
+
+
+
 {{< rawhtml >}}
 
 <div id='chart'></div>
@@ -50,7 +54,7 @@ Atención, atención: Este presente experimento está a punto de explotar. **Se 
     }
     let container = document.querySelector("#chart")
     let chart = new ApexCharts(container, options)
-
+g
     chart.render()
 
 </script>
