@@ -16,8 +16,8 @@ tags:
 date: 2021-01-03T15:45:25-04:00
 
 
-img: "/images/ode-to-coding.svg"
-imgSocial: "/images/ode-to-coding-social.png"
+img: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"
+imgSocial: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"
 imgAlternativeText: "coding-illustration"
 
 igPost: "https://www.instagram.com/p/CJmPSH0lT2d/"
@@ -34,7 +34,7 @@ When I discovered programming and software development I immediately became inte
 
 Without further ado, here's my love letter to Programming.
 
-# Life makes sense with logical thinking
+## Life makes sense with logical thinking
 
 Computers don't allow ambiguities, any program you write needs precise inputs in order to operate correctly. The program's decision making process relies entirely in the factual data provided by those inputs.
 
@@ -44,7 +44,7 @@ But most importantly I started to draw my own conclusions based on inputs and fe
 
 Since computers can normally do only one thing at the time we must learn how to **divide big problems into small ones**. This is a pattern we start to recognize in our lives to. We might feel overwhelm by the magnitude of obstacles we face, but it's always easier to overcome them by one step at the time and achieve great things.
 
-# Your imagination takes form in the real world
+## Your imagination takes form in the real world
 
 Imagine all your ideas your mind can come up with as colors, then programming comes in and says "Hey, here you have a blank canvas where you can totally mess it up, edit, undo, compile and share your creation with the entire world just with one link and in a matter of seconds"...cool right?
 
@@ -54,7 +54,7 @@ To be fair learning how to write code might be slightly harder than learning how
 
 Code is basically **building blocks for your imagination**. It gives you so much power that we are amazed every year by new projects people create that we didn't know were possible or just didn't think of it in such creative ways.
 
-# Your code is an artistic solution to problems
+## Your code is an artistic solution to problems
 
 Writing is a beautiful art form and a wonderful activity for our minds. But writing a solution that runs on a computer to solve problems, that's just exciting.
 
@@ -66,7 +66,7 @@ There is this feeling when you find out a better way to solve common problems th
 
 When you find a successful solution, **you feel a sense of achievement that is rewarding**. It gives you motivation to keep doing your job with joy and satisfaction. You feel like a winner who didn't give up.
 
-# Mistakes are the main guests at the party
+## Mistakes are the main guests at the party
 
 Here's a universal truth, **effective solutions rarely come without trial and error**. For many reasons code is prone to errors, at the end of the day **we are still humans**.
 
@@ -78,7 +78,7 @@ Eventually in our job and in life in general **when we are no longer scared of m
 
 **Failure is part of the road**. It's hard to overcome our fear of failing but when we do, we can walk our way to achieving what we want.
 
-# As the next universal language, your code speaks for you
+## As the next universal language, your code speaks for you
 
 Programming is an objective activity. **It's about understanding a problem** thoroughly so you can teach a piece of metal how to solve it.
 
