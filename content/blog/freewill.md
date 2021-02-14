@@ -24,7 +24,7 @@ igPost:
 
 destacado: false
 
-draft: false
+draft: true
 
 ---
 
