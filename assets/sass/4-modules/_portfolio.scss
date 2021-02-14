@@ -36,7 +36,9 @@
     justify-content: center;
     flex-wrap: wrap;
     background-color: $full-white;
-    box-shadow: 5px 5px 5px hsla(0, 0, 0, 0.35), -2px -2px 5px hsla(0, 0, 0, 0.25);
+    box-shadow: 
+    5px 5px 10px rgba($color: #000000, $alpha: 0.15),
+    -5px -5px 10px rgba($color: #000000, $alpha: 0.15);
     border-radius: 15px;
     
     @include media($medium-min){
@@ -59,6 +61,18 @@
             border-top-left-radius: 15px;
             border-bottom-left-radius: 15px;
             border-top-right-radius: 0;
+        }
+
+        &:hover {
+            img {
+                animation: bounce .6s ease-in-out;
+            }
+        }
+    
+        @keyframes bounce {
+            0%{transform: scale(1);}
+            50%{transform: scale(1.1);}
+            100%{transform: scale(1);}
         }
     }
 

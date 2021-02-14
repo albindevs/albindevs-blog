@@ -24,7 +24,7 @@ igPost:
 
 destacado: false
 
-draft: True
+draft: false
 
 ---
 
@@ -54,7 +54,6 @@ Atención, atención: Este presente experimento está a punto de explotar. **Se 
     }
     let container = document.querySelector("#chart")
     let chart = new ApexCharts(container, options)
-g
     chart.render()
 
 </script>
