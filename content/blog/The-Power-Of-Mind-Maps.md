@@ -27,7 +27,7 @@ draft: false
 
 ---
 
-With visual elements and graphical links we can organize information in a way that is easy to remember. A magnificent technique for achieving this to draw a mind map
+With visual elements and graphical links we can organize information in a way that is easy to remember. A magnificent technique for achieving this is to draw a mind map
 
 ## What are mind maps and how to create them
 
