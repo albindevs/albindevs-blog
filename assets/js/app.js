@@ -32,13 +32,13 @@ function isInViewport(el) {
     })
 
     function cardsDistribution() {
-        cardsDisplayed = true;
-        let counter = 0;
-        cards.forEach(card => {
-            card.style.animationDelay = `${counter}s`;
-            card.classList.add('shown');
-            counter = counter + 0.5;
-        });
+        // cardsDisplayed = true;
+        // let counter = 0;
+        // cards.forEach(card => {
+        //     card.style.animationDelay = `${counter}s`;
+        //     card.classList.add('shown');
+        //     counter = counter + 0.5;
+        // });
     }
 
 

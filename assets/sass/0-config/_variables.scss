@@ -31,7 +31,7 @@ $navy: 			#000080;
 
 
 
-$custom-primary-color: hsl(45,85%,65%);
+$custom-primary-color: hsl(330,100%,30%);
 $palette-color-1: #9B00E8;
 $palette-color-2: #00F1FF;
 $palette-color-3: #5c2c6d;
@@ -39,7 +39,7 @@ $palette-color-4: #5da4a6;
 
 
 
-$primary-color:		$palette-color-1;
+$primary-color:		$custom-primary-color;
 $secundary-color:	$palette-color-4;
 $important-color:	$green;
 $link-color:		$blue;

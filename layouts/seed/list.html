@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div class="bloglist-wrapper" style="padding-top: 80px;">
+
+
+    <section itemscope="" itemtype="https://schema.org/Blog" class="section">
+        <div class="section-title seed-list-title">
+            <h4 class="title">🌳 Welcome to my Digital Garden 🌳</h4>
+        </div>
+        <p class="garden-description">This is my place for freedom of thought. A conversation with myself that I publicly share. Some of the notes won't have any context or sense at all, that's kind of the point.</p> 
+        
+        <p class="garden-description">🌱 Every note is a seed that I intent to keep watering over the time and make them as interesting as possible by sharing with you links 🔗, images 🖼️, videos 📼, maps I draw on paper ✏️ and everything that I find interesting. You might find something that you like as well 💖</p>
+
+        <div class="cards">
+            {{ range .Pages}}
+            {{ block "post-card-recent" . }}{{ partial "seed-card.html" . }}{{ end }}
+            {{ end }}
+        </div>
+    </section>
+
+
+    <!-- <section class="categories">
+        <ul class="list">
+            {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+            <li class="list__title"><a href="{{ "/" | safeURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}:</a>
+                <ul class="list">
+                    {{ range $key, $value := $taxonomy }}
+                    <li class="list__item"> <span> </span><a href="/{{$taxonomyname}}/{{$key}}">{{ $key }}</a></li>
+                    {{ end }}
+                </ul>
+            </li>
+            {{ end }}
+        </ul>
+    </section> -->
+
+
+    <!-- <section class="categories">
+        <h5 class="categories__title">📌 Categories:</h5>
+
+        <div class="categories__list-container">
+            <ul class="list">
+                <li class="list__item"><a href="/categories/programming">🖥️ Programming</a></li>
+                <li class="list__item"><a href="/categories/knowledge-management">📚 Knowledge Management</a></li>
+                <li class="list__item"><a href="/categories/self-improvement">🌌 Self-improvement</a></li>
+            </ul>
+            <ul class="list">
+                <li class="list__item"><a href="/categories/programming">🖥️ Programming</a></li>
+                <li class="list__item"><a href="/categories/knowledge-management">📚 Knowledge Management</a></li>
+                <li class="list__item"><a href="/categories/self-improvement">🌌 Self-improvement</a></li>
+            </ul>
+        </div>
+    </section> -->
+</div>
+
+<script>
+    let blogPageCards = document.querySelector('.cards');
+    blogPageCards.classList.add('shown');
+</script>
+
+{{ end }}

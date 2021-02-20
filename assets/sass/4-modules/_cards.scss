@@ -23,11 +23,10 @@
   background: $full-white;
   color: $gray;
   box-shadow: 
-  5px 5px 10px rgba($color: #000000, $alpha: 0.15),
-  -5px -5px 10px rgba($color: #000000, $alpha: 0.15);
+  7px 7px 24px rgba($color: #000000, $alpha: 0.15),
+  -7px -7px 24px rgba($color: #000000, $alpha: 0.15);
   
   font-size: 1rem;
-  opacity: 0;
   border-radius: 10px;
   transition: .5s all ease-in-out;
 
@@ -66,7 +65,7 @@
     margin-bottom: 5px;
     color: $black;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 500;
   }
   
   &__button {
@@ -86,41 +85,5 @@
       cursor: pointer;
     }
 
-  }
-}
-
-
-.card-pet {
-  &__title {
-    font-family: $font-family-display;
-    font-size: 2.5rem;
-    font-weight: normal;
-  }
-
-  &__phone {
-    color: $blue;
-    text-decoration: underline;
-  }
-
-  &__data {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-
-    font-size: 1.1rem;
-  }
-}
-
-
-
-
-.cards-insta {
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
-  
-  .card-insta {
-   margin: 5vh 0;
   }
 }

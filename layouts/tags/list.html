@@ -2,16 +2,15 @@
 
 <div class="bloglist-wrapper">
 
-  <section itemscope="" itemtype="https://schema.org/Blog" class="section section-blog">
+  <section itemscope="" itemtype="https://schema.org/Blog" class="section section-blog" style="padding-top:100px;">
         <div class="section-title">
           {{ $lastUrlElement := index (last 1 (split (delimit (split .URL "/") "," "") ",")) 0 }}
-          <h4 class="title">{{$lastUrlElement}}</h4>
-          <!-- <img src="/images/blog-icon.svg" alt="pawn prints logo"> -->
+          <h4 class="title" style="text-transform: capitalize;">{{$lastUrlElement}}</h4>
         </div>
 
         <div class="cards">
           {{ range .Pages}} 
-            {{ block "article-card-recent" . }}{{ partial "post-card.html" . }}{{ end }}
+            {{ block "article-card-recent" . }}{{ partial "seed-card.html" . }}{{ end }}
           {{ end }} 
         </div>
   </section>

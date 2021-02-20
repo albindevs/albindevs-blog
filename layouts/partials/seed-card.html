@@ -1,4 +1,4 @@
-<article itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting" class="card">
+<article itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting" class="card seed-card">
     <a href="{{.URL}}">
         <meta itemprop="mainEntityOfPage" content="{{.Permalink}}">
         <div class="card__img-container">
@@ -8,7 +8,13 @@
         <div class="card__data">
             <h2 itemprop="name headline" class="card__title">{{.Title}}</h2>
             <p>{{.Description}}</p>
-            <time datetime="{{.Date}}" itemprop="datePublished" class="card-blog__date">&#128467;&#65039; {{dateFormat "2 Jan 2006" .Date}}</time>
+            <ul class="seed-tags">
+                {{ range (.GetTerms "tags") }}
+                    <li class="seed-tag">
+                        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+                    </li>
+               {{ end }}
+            </ul>
         </div>
         <span itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
             <meta itemprop="name" content="{{.Site.Title}}">
