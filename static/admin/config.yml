@@ -38,6 +38,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "seed"}
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Descripción", name: "description", widget: "string"}
+      - {label: "Notion Url", name: "notionUrl", widget: "string"}
       - {label: "Imagen principal del articulo", name: "img", widget: "image"}
       - {label: "Texto alternativo de imagen", name: "imgAlternativeText", widget: "string"}
       - {label: "Etiquetas", name: "tags", widget: "list"}
