@@ -8,6 +8,24 @@ public_folder: "/images/"
 
 
 collections:
+  - name: "seed" 
+    label: "Seed" # Used in the UI
+    folder: "content/seed" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "seed"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Notion Url", name: "notionUrl", widget: "string"}
+      - {label: "Banner", name: "img", widget: "image"}
+      - {label: "Alt", name: "imgAlternativeText", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Created", name: "date", widget: "datetime"}
+      - {label: "Update", name: "update", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "blog" 
     label: "Blog" # Used in the UI
     folder: "content/blog" # The path to the folder where the documents are stored
@@ -27,22 +45,5 @@ collections:
       # - {label: "Direccion url de la Fuente", name: "imgOriginalSourceUrl", widget: "string", default: "https://pexels.com"}
       # - {label: "Autor de la imagen", name: "imgAuthor", widget: "string", default: "Author"}
       # - {label: "Direccion url del Autor", name: "imgAuthorUrl", widget: "string", default: "https://pexels.com/"}
-      - {label: "Draft", name: "draft", widget: "boolean"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "seed" 
-    label: "Seed" # Used in the UI
-    folder: "content/seed" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "seed"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Notion Url", name: "notionUrl", widget: "string"}
-      - {label: "Banner", name: "img", widget: "image"}
-      - {label: "Alt", name: "imgAlternativeText", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Created", name: "date", widget: "datetime"}
-      - {label: "Update", name: "update", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
