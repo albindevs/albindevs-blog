@@ -10,12 +10,23 @@
         
         <p class="garden-description">🌱 Every note is a seed that I intent to keep watering over the time and make them as interesting as possible by sharing with you links 🔗, images 🖼️, videos 📼, maps I draw on paper ✏️ and everything that I find interesting. You might find something that you like as well 💖</p>
 
+        <div class="all-tags">
+            {{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
+            {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+                <div class="tag">
+                    <a href={{ .RelPermalink }} title="All pages with tag <i>{{$name}}</i>">#{{$name}}</a>
+                    <!-- <span>{{$cnt}}</apan> -->
+                </div>
+            {{end}}
+            {{end}}
+        </div>
         <div class="cards">
             {{ range .Pages}}
             {{ block "post-card-recent" . }}{{ partial "seed-card.html" . }}{{ end }}
             {{ end }}
         </div>
     </section>
+
 
 
     <!-- <section class="categories">

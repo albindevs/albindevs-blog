@@ -6,6 +6,8 @@ tags:
 - illustration
 - format
 - music
+- design
+- composition
 
 img: "/images/seeds/queue-rating.jpg"
 imgSocial: "/images/seeds/queue-rating.jpg"
