@@ -1,11 +1,7 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-description: ""
 tags:
-# - ej:perros
-# - ej:gatos
-# - ej:prevencion
-# - etc
+# - creativity
 
 img: "/images/seeds/.jpg"
 imgSocial: "/images/seeds/.jpg"

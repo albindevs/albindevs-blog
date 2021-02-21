@@ -9,7 +9,7 @@ tags:
 
 img: "/images/seeds/ask.jpg"
 imgSocial: "/images/seeds/ask.jpg"
-imgAlternativeText: "Texto alternativo para la imagen"
+imgAlternativeText: "ask symbol"
 draft: false
 date: 2021-02-20T20:40:13-04:00
 ---
