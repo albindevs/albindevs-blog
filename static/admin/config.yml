@@ -1,0 +1,48 @@
+backend:
+  name: git-gateway
+  repo: repo
+  branch: master
+  
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+
+collections:
+  - name: "blog" 
+    label: "Blog" # Used in the UI
+    folder: "content/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Descripción", name: "description", widget: "string"}
+      - {label: "Imagen principal del articulo", name: "img", widget: "image"}
+      - {label: "Texto alternativo de imagen", name: "imgAlternativeText", widget: "string"}
+      - {label: "Categoria", name: "categories", widget: "list"}
+      - {label: "Etiquetas", name: "tags", widget: "list"}
+      - {label: "Fecha de publicacion del articulo", name: "date", widget: "datetime"}
+      # - {label: "Fuente de la imagen principal del articulo", name: "imgOriginalSource", widget: "string", default: "pexels"}
+      # - {label: "Direccion url de la Fuente", name: "imgOriginalSourceUrl", widget: "string", default: "https://pexels.com"}
+      # - {label: "Autor de la imagen", name: "imgAuthor", widget: "string", default: "Author"}
+      # - {label: "Direccion url del Autor", name: "imgAuthorUrl", widget: "string", default: "https://pexels.com/"}
+      - {label: "Resaltar articulo", name: "destacado", widget: "boolean"}
+      - {label: "¿Guardar Articulo sin publicar?", name: "draft", widget: "boolean"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "seed" 
+    label: "Seed" # Used in the UI
+    folder: "content/seed" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "seed"}
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Descripción", name: "description", widget: "string"}
+      - {label: "Imagen principal del articulo", name: "img", widget: "image"}
+      - {label: "Texto alternativo de imagen", name: "imgAlternativeText", widget: "string"}
+      - {label: "Etiquetas", name: "tags", widget: "list"}
+      - {label: "Fecha de publicacion del articulo", name: "date", widget: "datetime"}
+      - {label: "Update", name: "update", widget: "datetime"}
+      - {label: "Resaltar articulo", name: "destacado", widget: "boolean"}
+      - {label: "¿Guardar Articulo sin publicar?", name: "draft", widget: "boolean"}
+      - {label: "Body", name: "body", widget: "markdown"}
