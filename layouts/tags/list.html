@@ -1,14 +1,14 @@
 {{define "main"}}
 
-<div class="bloglist-wrapper">
+<div class="bloglist-wrapper seed-wrapper">
 
-  <section itemscope="" itemtype="https://schema.org/Blog" class="section section-blog" style="padding-top:100px;">
+  <section itemscope="" itemtype="https://schema.org/Blog" class="section" style="padding-top:100px;">
         <div class="section-title">
           {{ $lastUrlElement := index (last 1 (split (delimit (split .URL "/") "," "") ",")) 0 }}
           <h4 class="title" style="text-transform: capitalize;">{{$lastUrlElement}}</h4>
         </div>
 
-        <div class="cards">
+        <div class="cards seed-cards">
           {{ range .Pages}} 
             {{ block "article-card-recent" . }}{{ partial "seed-card.html" . }}{{ end }}
           {{ end }} 

@@ -63,6 +63,10 @@
 
 .seed-cards {
     background-color: #fff;
+
+    .card__img-container{
+        min-height: 200px;
+    }
     p {
         margin: 10px 0;
     }
@@ -164,6 +168,12 @@
             @include media($medium-min){
             font-size: 2rem;
             }
+        }
+
+        a {
+            color: $primary-color;
+            text-decoration: underline;
+            font-weight: bold;
         }
     }
 
