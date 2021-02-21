@@ -2,10 +2,12 @@
 title: "Drawing Mind Maps Feels Amazing"
 description: "They materialize your thought process"
 tags:
-- clear-thinking
-- imagination
 - insights
 - flow
+- experiments
+- composition
+
+notionUrl: "https://www.notion.so/Lineup-52-Paper-pen-and-some-rulers-for-free-mapping-cfc30a9377974a7382e47ea0f1c65713"
 
 img: "/images/seeds/first-hand-map.jpg"
 imgSocial: "/images/seeds/first-hand-map.jpg"

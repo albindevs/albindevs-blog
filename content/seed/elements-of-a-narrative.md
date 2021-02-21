@@ -2,10 +2,10 @@
 title: "Elements of a Narrative"
 description: "These are the elements that we can use to tell stories over the internet"
 tags:
-- storytelling
-- design
-- interaction
+- narrative
 - composition
+
+notionUrl: "https://www.notion.so/Lineup-53-Elements-of-a-narrative-2c60021696664bafb83eb2a135e1e21c"
 
 img: "/images/seeds/elements-of-narrative.jpg"
 imgSocial: "/images/seeds/elements-of-narrative.jpg"

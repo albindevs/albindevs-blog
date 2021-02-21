@@ -3,6 +3,8 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 tags:
 # - creativity
 
+notionUrl: ""
+
 img: "/images/seeds/.jpg"
 imgSocial: "/images/seeds/.jpg"
 imgAlternativeText: "Texto alternativo para la imagen"

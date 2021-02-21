@@ -2,12 +2,12 @@
 title: "Playing With Illustrator"
 description: ""
 tags:
-- experiment
-- illustration
+- experiments
 - format
 - music
-- design
 - composition
+
+notionUrl: "https://www.notion.so/Lineup-52-Paper-pen-and-some-rulers-for-free-mapping-cfc30a9377974a7382e47ea0f1c65713#967a939ee85d4e62b0841392b1eba68d"
 
 img: "/images/seeds/queue-rating.jpg"
 imgSocial: "/images/seeds/queue-rating.jpg"

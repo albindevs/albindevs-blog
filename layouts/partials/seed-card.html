@@ -7,13 +7,6 @@
 
         <div class="card__data">
             <h2 itemprop="name headline" class="card__title">{{.Title}}</h2>
-            <ul class="seed-tags">
-                {{ range (.GetTerms "tags") }}
-                    <li class="seed-tag">
-                        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-                    </li>
-               {{ end }}
-            </ul>
         </div>
         <span itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
             <meta itemprop="name" content="{{.Site.Title}}">

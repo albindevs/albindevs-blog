@@ -10,13 +10,13 @@
 
 <meta property="og:title" content="{{.Title}}"/>
 
-<meta property="og:type" content="{{if eq .Type `blog`}}article{{else}}website{{end}}"/>
+<meta property="og:type" content="{{if eq .Type `blog` | eq .Type `seed`}}article{{else}}website{{end}}"/>
 
 <meta property="og:description" content="{{with .Description}}{{.}}{{else}}{{.Site.Params.description}}{{end}}"/>
 
 <meta property="og:url" content=" {{.Permalink}} "/>
 
-<meta property="og:image" content="{{if eq .Type `blog`}}{{.Site.BaseURL}}{{ .Params.imgSocial}}
+<meta property="og:image" content="{{if eq .Type `blog` | eq .Type `seed`}}{{.Site.BaseURL}}{{ .Params.imgSocial}}
 {{else}}{{.Site.BaseURL}}{{ .Site.Params.socialMediaImgPng}}{{end}}"/>
 
 <meta property="og:site_name" content="{{.Site.Title}} "/>
@@ -32,7 +32,7 @@
 
 <meta property="twitter:description" content="{{with .Description}}{{.}}{{else}}{{.Site.Params.description}}{{end}}"/>
 
-<meta name="twitter:image" content="{{if eq .Type `blog`}}{{.Site.BaseURL}}{{ .Params.imgSocial}}
+<meta name="twitter:image" content="{{if eq .Type `blog` | eq .Type `seed`}}{{.Site.BaseURL}}{{ .Params.imgSocial}}
 {{else}}{{.Site.BaseURL}}{{ .Site.Params.socialMediaImgPng}}
 {{end}}"/>
 

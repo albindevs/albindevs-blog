@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="bloglist-wrapper" style="padding-top: 80px;">
+<div class="bloglist-wrapper seed-wrapper" style="padding-top: 80px;">
 
 
     <section itemscope="" itemtype="https://schema.org/Blog" class="section">
@@ -11,19 +11,66 @@
         <p class="garden-description">🌱 Every note is a seed that I intent to keep watering over the time and make them as interesting as possible by sharing with you links 🔗, images 🖼️, videos 📼, maps I draw on paper ✏️ and everything that I find interesting. You might find something that you like as well 💖</p>
 
         <div class="all-tags">
-            {{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
-            {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
-                <div class="tag">
-                    <a href={{ .RelPermalink }} title="All pages with tag <i>{{$name}}</i>">#{{$name}}</a>
-                    <!-- <span>{{$cnt}}</apan> -->
-                </div>
-            {{end}}
-            {{end}}
-        </div>
-        <div class="cards">
-            {{ range .Pages}}
-            {{ block "post-card-recent" . }}{{ partial "seed-card.html" . }}{{ end }}
-            {{ end }}
+            <a class='tag' href='{{.Site.BaseURL}}/tags/flow'>
+                <img src="/images/flow.svg" alt="micriscope icon">
+                <p>flow</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/format'>
+                <img src="/images/format.svg" alt="frame icon">
+                <p>Format</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/mindset'>
+                <img src="/images/mindset.svg" alt="brain icon">
+                <p>Mindset</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/improvement'>
+                <img src="/images/impro.svg" alt="hour glass icon">
+                <p>Improvement</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/findings'>
+                <img src="/images/findings.svg" alt="main exploding icon">
+                <p>Findings</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/diving'>
+                <img src="/images/diving.svg" alt="main exploding icon">
+                <p>Diving</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/insights'>
+                <img src="/images/insights.svg" alt="main exploding icon">
+                <p>Insights</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/gear'>
+                <img src="/images/gear.svg" alt="main exploding icon">
+                <p>Gear</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/lists'>
+                <img src="/images/lists.svg" alt="main exploding icon">
+                <p>Lists</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/social'>
+                <img src="/images/social.svg" alt="main exploding icon">
+                <p>Social</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/memories'>
+                <img src="/images/memories.svg" alt="main exploding icon">
+                <p>Memories</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/experiments'>
+                <img src="/images/experiments.svg" alt="main exploding icon">
+                <p>Experiments</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/composition'>
+                <img src="/images/composition.svg" alt="main exploding icon">
+                <p>Composition</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/music'>
+                <img src="/images/music.svg" alt="main exploding icon">
+                <p>Music</p>
+            </a>
+            <a class='tag' href='{{.Site.BaseURL}}/tags/narrative'>
+                <img src="/images/narrative.svg" alt="main exploding icon">
+                <p>Narrative</p>
+            </a>
         </div>
     </section>
 
@@ -51,7 +98,7 @@
             <ul class="list">
                 <li class="list__item"><a href="/categories/programming">🖥️ Programming</a></li>
                 <li class="list__item"><a href="/categories/knowledge-management">📚 Knowledge Management</a></li>
-                <li class="list__item"><a href="/categories/self-improvement">🌌 Self-improvement</a></li>
+                <li class="list__item"><a href="/categories/self-findings">🌌 Self-improvement</a></li>
             </ul>
             <ul class="list">
                 <li class="list__item"><a href="/categories/programming">🖥️ Programming</a></li>

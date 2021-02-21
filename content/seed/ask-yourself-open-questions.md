@@ -2,10 +2,10 @@
 title: "Ask Open Questions to Yourself "
 description: "When you're interested in a subject, asking yourself Wh- questions about it sparks your imagination"
 tags:
-- knowledge
 - insights
-- creativity
 - mindset
+
+notionUrl: "https://www.notion.so/Lineup-53-Elements-of-a-narrative-2c60021696664bafb83eb2a135e1e21c#7bfeb53ebc8f4b6e9ba5d57ac020d7e0"
 
 img: "/images/seeds/ask.jpg"
 imgSocial: "/images/seeds/ask.jpg"

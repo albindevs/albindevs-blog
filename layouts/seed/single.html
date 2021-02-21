@@ -3,6 +3,11 @@
 <section>
     <article class="seed">
         <div class="seed-wrapper">
+            <div class="back-container">
+                <a href="{{.Site.BaseURL}}/seed/">
+                    <img src="/images/tree.svg" alt="tree icon">
+                </a>
+            </div>
             <div class="seed-header">
                 <h1 class="seed-title">{{.Title}}</h1>
                 <ul class="seed-tags">
@@ -19,6 +24,9 @@
             <div class="seed-body">
                 {{.Content}}
             </div>
+            <a href="{{.Params.notionUrl}}" class="edit-container">
+                <img class="edit-btn" src="/images/edit.svg" alt="threat icon">
+            </a>
         </div>
     </article>
 </section>

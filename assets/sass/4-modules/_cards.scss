@@ -1,12 +1,12 @@
 
 
 .cards {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: auto;
   margin-top: 20px;
 
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
   justify-content: space-around;
   align-items: start;
   grid-gap: 20px;
@@ -20,11 +20,11 @@
   max-width: 320px;
   margin: 20px auto;
   
-  background: $full-white;
-  color: $gray;
-  box-shadow: 
-  7px 7px 24px rgba($color: #000000, $alpha: 0.15),
-  -7px -7px 24px rgba($color: #000000, $alpha: 0.15);
+  // background: $full-white;
+  // color: $gray;
+  // box-shadow: 
+  // 7px 7px 24px rgba($color: #000000, $alpha: 0.15),
+  // -7px -7px 24px rgba($color: #000000, $alpha: 0.15);
   
   font-size: 1rem;
   border-radius: 10px;
@@ -32,8 +32,7 @@
 
 
   &__img-container {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
     overflow: hidden;
     max-height: 200px;
   }
@@ -42,8 +41,6 @@
     width: 100%;
     
     margin: 0;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     
     &:hover {
       animation: bounce .8s ease-in-out;
@@ -62,7 +59,6 @@
 
   &__title {
     margin: 0;
-    margin-bottom: 5px;
     color: $black;
     font-size: 1.4rem;
     font-weight: 500;
