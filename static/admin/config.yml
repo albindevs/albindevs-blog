@@ -3,8 +3,8 @@ backend:
   repo: repo
   branch: master
   
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "static/images/"
+public_folder: "/images/"
 
 
 collections:
