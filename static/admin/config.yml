@@ -22,7 +22,7 @@ collections:
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Created", name: "date", widget: "datetime"}
-      - {label: "Update", name: "date", widget: "datetime"}
+      - {label: "Update", name: "update", widget: "datetime"}
       # - {label: "Fuente de la imagen principal del articulo", name: "imgOriginalSource", widget: "string", default: "pexels"}
       # - {label: "Direccion url de la Fuente", name: "imgOriginalSourceUrl", widget: "string", default: "https://pexels.com"}
       # - {label: "Autor de la imagen", name: "imgAuthor", widget: "string", default: "Author"}

@@ -14,7 +14,7 @@ tags:
 
 
 date: {{ .Date }}
-
+update: 
 
 img: "/images/example.svg"
 imgSocial: "/images/example.png"
