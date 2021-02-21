@@ -25,6 +25,7 @@
     li {
         margin-right: 10px;
         padding: 10px;
+        margin-bottom: 5px;
         border-radius: 5px;
         background-color: $primary-color;
         color: #fff;
@@ -69,11 +70,12 @@
         
         li {
             font-size: 1rem;
-            margin-bottom: 10px;
         }
     }
 
     .seed-body {
+        max-width: 700px;
+        margin: auto;
         line-height: 1.6;
         color: hsl(0,0%,25%);
     
