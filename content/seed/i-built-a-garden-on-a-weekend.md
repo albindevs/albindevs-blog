@@ -1,17 +1,18 @@
 ---
-title: "I Built a Garden on a Weekend"
-tags:
-- format
-- experiments
-- composition
-
-notionUrl: "https://www.notion.so/Lineup-55-Making-history-66d01c729a3a4f3ab2d6e3962c491250"
-
-img: "/images/seeds/garden.png"
-imgSocial: "/images/seeds/garden.png"
-imgAlternativeText: "tags of my digital garden"
-draft: false
+img: /images/seeds/garden.png
 date: 2021-02-21T09:40:00-04:00
+update: 2021-02-21T17:48:41.481Z
+draft: false
+imgSocial: /images/seeds/garden.png
+title: I Built a Garden on a Weekend
+description: Just by reading the first definition of this exciting new world of
+  digital gardens, I was mesmerized.
+notionUrl: https://www.notion.so/Lineup-55-Making-history-66d01c729a3a4f3ab2d6e3962c491250
+imgAlternativeText: tags of my digital garden
+tags:
+  - format
+  - experiments
+  - composition
 ---
 This week my stress levels reached their all-time high for almost 72 hours straight. I could barely sleep. What I do for a living and also for fun( which is the point in this note, more on that later) turned out to feel like a nightmare all of a sudden.
 
