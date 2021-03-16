@@ -36,7 +36,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Banner", name: "img", widget: "image"}
-      - {label: "OpenImage", name: "imgSocial", widget: "string"}
       - {label: "Altt", name: "imgAlternativeText", widget: "string"}
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Tags", name: "tags", widget: "list"}
