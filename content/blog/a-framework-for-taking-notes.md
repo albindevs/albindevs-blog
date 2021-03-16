@@ -4,6 +4,7 @@ title: A Framework for taking notes
 description: "The way you organize your notes improve significantly how you
   connect the dots and generate more insights. "
 img: /images/yellow-framework.png
+imgSocial: /images/yellow-framework.png
 imgAlternativeText: "Illustration of notes organization "
 date: 2021-03-15T23:24:34.809Z
 update: 2021-03-15T23:24:34.870Z

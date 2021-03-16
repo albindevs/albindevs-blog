@@ -61,6 +61,11 @@
     max-width: 500px
   }
 
+  a {
+    color: $blue;
+    text-decoration: underline;
+  }
+
 
 
   &__title {
