@@ -1,31 +1,18 @@
 ---
-title: "This Is Why Coding Is Awesome"
-
-description: "If you're creative enough, coding is about giving your imagination all the resources of modern day computers"
-
-categories:
-- Programming
-
-tags:
-# - ej:perros
-# - ej:gatos
-# - ej:prevencion
-# - etc
-
-
-date: 2021-01-03T15:45:25-04:00
-
-
-img: "/images/blog/codingIsAwesome/code.jpg"
-imgSocial: "/images/blog/codingIsAwesome/code.jpg"
-imgAlternativeText: "coding-illustration"
-
-igPost: "https://www.instagram.com/p/CJmPSH0lT2d/"
-
-destacado: false
-
+img: /images/code.jpg
 draft: false
-
+destacado: false
+date: 2021-01-03T15:45:25-04:00
+update: 2021-04-03T11:54:16.015Z
+imgSocial: /images/blog/codingIsAwesome/code.jpg
+title: This Is Why Coding Is Awesome
+description: If you're creative enough, coding is about giving your imagination
+  all the resources of modern day computers
+imgAlternativeText: coding-illustration
+categories:
+  - Programming
+tags: null
+igPost: https://www.instagram.com/p/CJmPSH0lT2d/
 ---
 
 In simple terms programming is the art of telling computers a set of steps to solve a problem. But if you're creative enough, It's about **giving your imagination all the resources of modern day computers**.
