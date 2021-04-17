@@ -3,14 +3,7 @@
     margin: 20px 0;
     padding: 10px;
     border-radius: 10px;
-    @include button-shaddow; 
-
-    @include transition;
-
-    &:hover {
-        box-shadow: none
-    }
-
+    
     p {
         margin: 0;
     }
@@ -23,9 +16,23 @@
 
 }
 
+.btn-under {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 .btn-primary {
     background-color: $primary-color;
     color: $full-white;
+    @include button-shaddow; 
+
+    @include transition;
+
+    &:hover {
+        box-shadow: none
+    }
+
 }
 
 .btn-cv {
@@ -34,4 +41,12 @@
     margin-bottom: 40px;
     display: flex;
     align-items: center;
+    @include button-shaddow; 
+
+    @include transition;
+
+    &:hover {
+        box-shadow: none
+    }
+
 }

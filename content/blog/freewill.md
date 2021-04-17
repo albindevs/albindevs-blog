@@ -1,7 +1,7 @@
 ---
 title: "Freewill"
 
-description: "breve descripcion del articulo"
+description: "breve descripción del articulo"
 
 categories:
 # - ej:salud
@@ -24,14 +24,14 @@ igPost:
 
 destacado: false
 
-draft: true
+draft: false
 
 ---
 
 Atención, atención: Este presente experimento está a punto de explotar. **Se prendió esta mierda**
 
 
-
+Que aso el mío. Hoy vamos a hacer un experimento con ilustraciones personalizadas dentro de los blog posts y le meteremos demasiado encanto con algunas animaciones con js
 
 {{< rawhtml >}}
 

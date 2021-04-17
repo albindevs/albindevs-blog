@@ -1,6 +1,6 @@
 baseURL = "https://albindevs.netlify.app"
 languageCode = "en-US"
-title = "Albindevs - Web Developer"
+title = "Albindevs"
 
 enableRobotsTXT = true
 disableAliases = true
