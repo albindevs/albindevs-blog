@@ -28,7 +28,15 @@ I learned about this magnificent concept from [one of my favorite blogs](https:/
 
 This is how my mind garden looks like, I personally love [Notion](notion.so) for keeping all my notes and basically organizing my entire life
 
-![Notes categories](/images/screenshot_2021-03-15-notion-–-the-all-in-one-workspace-for-your-notes-tasks-wikis-and-databases-.png)
+{{< rawhtml >}}
+<img id="seeds-from-notion" src="/images/screenshot_2021-03-15-notion-–-the-all-in-one-workspace-for-your-notes-tasks-wikis-and-databases-.png" alt="seeds-from-notion">
+
+<script>
+    let seeds = document.querySelector("#seeds-from-notion")
+    // scaleOnY(seeds)
+    zoomOnHover(seeds)
+</script>
+{{</ rawhtml >}}
 
 You don't have to follow traditional categories. Feel free to invent your owns!
 

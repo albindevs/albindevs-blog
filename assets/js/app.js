@@ -15,11 +15,36 @@ function followCursor(element) {
         let x = Math.round((e.clientX - rect.left)/element.clientWidth * 100)
         let y = Math.round((e.clientY - rect.top)/element.clientHeight * 100)
         
-        console.log('x: ' + x + '% y: ' + y + '%')
+        // console.log('x: ' + x + '% y: ' + y + '%')
 
         element.style.transform = `translate(-${x}px,-${y}px)`
         element.style.transition = `0.5s ease-out`
         element.style.transformOrigin = `50% 50%`
+    })
+}
+
+function scaleOnY(element) {
+    element.addEventListener('mousemove', function (e) {
+        let rect = element.getBoundingClientRect()
+        let y = Math.round((e.clientY - rect.top)/element.clientHeight * 100)
+
+        element.style.transform = `scale(${1+0.005*y})`
+        element.style.transition = `0.5s ease-out`
+        element.style.transformOrigin = `50% 50%`
+    })
+    element.addEventListener('mouseleave', function (e) {
+        element.style.transform = `scale(1)`
+    })
+}
+
+function zoomOnHover(element) {
+    element.addEventListener('mouseenter', function (e) {
+        element.style.transform = `scale(2)`
+        element.style.transition = `0.5s ease-out`
+        element.style.transformOrigin = `50% 50%`
+    })
+    element.addEventListener('mouseleave', function (e) {
+        element.style.transform = `scale(1)`
     })
 }
 

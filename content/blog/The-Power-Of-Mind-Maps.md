@@ -31,7 +31,9 @@ With visual elements and graphical links we can organize information in a way th
 
 ## What are mind maps and how to create them
 
-![basic mind map structure](/images/blog/maps/how-map.png)
+{{< rawhtml >}}
+<img src="/images/blog/maps/how-map.png" alt="map structure">
+{{</ rawhtml >}}
 
 Mind maps are diagrams composed with a central topic and its main elements visually connected with links. It's a technique to better understand the composition of any subject. You start with a central topic and draw branches with the main concepts related or ideas about the topic. It gives you more freedom to take better notes in a non-linear way.
 
