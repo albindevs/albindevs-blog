@@ -9,7 +9,7 @@ function isInViewport(el) {
     );
 }
 
-function followCursor(element) {
+function followCursor(element, factor=1, reverse=false) {
     element.addEventListener('mousemove', function (e) {
         let rect = element.getBoundingClientRect()
         let x = Math.round((e.clientX - rect.left)/element.clientWidth * 100)
@@ -17,7 +17,14 @@ function followCursor(element) {
         
         // console.log('x: ' + x + '% y: ' + y + '%')
 
-        element.style.transform = `translate(-${x}px,-${y}px)`
+
+
+        if (reverse) {
+            element.style.transform = `translate(-${factor*x}px,-${factor*y}px)`
+        } else {
+            element.style.transform = `translate(${factor*x}px,${factor*y}px)`
+        }
+
         element.style.transition = `0.5s ease-out`
         element.style.transformOrigin = `50% 50%`
     })
@@ -63,7 +70,7 @@ function setAnimations() {
     }
 
     if (landinImg) {
-        followCursor(landinImg)
+        followCursor(landinImg, 1.5, true)
     }
     if (mainSkillsImg) {
         followCursor(mainSkillsImg)
@@ -131,9 +138,9 @@ function setAnimations() {
     }
 
 
-    menuBtn.addEventListener('click', function (e) {
+    menuBtn.onclick = function (e) {
         handleMenuClick()
-    });
+    };
 
     function handleMenuClick() {
         menuBtn.classList.toggle('isClosed');

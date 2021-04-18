@@ -189,4 +189,12 @@
         </div>
     </div>
 </section>
+{{ $s := resources.Get "js/app.js" | minify }}
+<script src="{{ $s.Permalink }}"></script>
+<script>
+    let illustrations = document.querySelectorAll(".about-item__image")
+    illustrations.forEach(illustration => {
+        followCursor(illustration, 0.3)  
+    })
+</script>
 {{ end }}

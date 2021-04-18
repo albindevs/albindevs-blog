@@ -1,10 +1,10 @@
 ---
-img: /images/code.jpg
+img: /images/blog/codingIsAwesome/code-1.png
 draft: false
 destacado: false
 date: 2021-01-03T15:45:25-04:00
 update: 2021-04-03T11:54:16.015Z
-imgSocial: /images/blog/codingIsAwesome/code.jpg
+imgSocial: /images/blog/codingIsAwesome/code-1.png
 title: This Is Why Coding Is Awesome
 description: If you're creative enough, coding is about giving your imagination
   all the resources of modern day computers

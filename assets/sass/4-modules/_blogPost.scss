@@ -65,11 +65,13 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    // padding: 20px;
+    padding: 20px 0;
 
     img {
-      // border-radius: 15px;
-      box-shadow: 3px 3px 15px hsla(0, 0%, 0%, 0.3), -3px -3px 15px hsla(0, 0%, 0%, 0.3);
+      box-shadow: 3px 3px 15px hsla(0, 0%, 0%, 0.2), -3px -3px 15px hsla(0, 0%, 0%, 0.2);
+      @include media($large-min){
+        border-radius: 15px;
+      }
     }
   }
 
@@ -87,7 +89,7 @@
   &__title {
     color: $black;
     margin-top: 30px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
     text-align: center;
 
