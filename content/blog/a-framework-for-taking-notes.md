@@ -9,6 +9,9 @@ title: A Framework for taking notes
 description: "The way you organize your notes improve significantly how you
   connect the dots and generate more insights. "
 imgAlternativeText: "Illustration of notes organization "
+
+categories:
+- pkm
 ---
 I used to write daily notes. All the ideas, experiences and thoughts that I had that day in a single note. That was such an inefficient way of taking notes. All my thoughts and insights were scattered in chronological order.
 
@@ -26,7 +29,7 @@ I learned about this magnificent concept from [one of my favorite blogs](https:/
 
 ## Create your own categories
 
-This is how my mind garden looks like, I personally love [Notion](notion.so) for keeping all my notes and basically organizing my entire life
+This is how my mind garden looks like, I personally love [Notion](https://notion.so) for keeping all my notes and basically organizing my entire life
 
 {{< rawhtml >}}
 <img id="seeds-from-notion" src="/images/screenshot_2021-03-15-notion-–-the-all-in-one-workspace-for-your-notes-tasks-wikis-and-databases-.png" alt="seeds-from-notion">
@@ -56,7 +59,7 @@ The key is feeling comfortable with adding and deleting as much as possible and 
 
 ## Connect the dots
 
-We have many tools at our disposal for creating our mind garden. As I said already [Notion](notion.so). There are other options as well. 
+We have many tools at our disposal for creating our mind garden. As I said already [Notion](https://notion.so). There are other options as well. 
 
 One important feature that you should look for is **Backlinks**
 
@@ -71,5 +74,3 @@ Combine notes, ideas, and categories. Recognize those patterns that spark your i
 Writing in general is a beautiful thing to do. For me It has changed the way I think and I'm very glad to share the way I approach this activity.
 
 Those are the main concepts I've have adopted over the time for writing my notes. Thank you for reading and I really hope you find article useful for you somehow. 
-
-If you'd like to say hi, you can find me on Twitter at [@albindevs](https://twitter.com/albindevs)

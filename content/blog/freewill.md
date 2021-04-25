@@ -16,9 +16,9 @@ tags:
 date: 2021-02-03T08:41:09-04:00
 
 
-img: "/images/blog/muro-beach.jpg"
+img: ""
 imgSocial: "/images/example.png"
-imgAlternativeText: "Texto alternativo para la imagen"
+imgAlternativeText: ""
 
 igPost: 
 
@@ -28,16 +28,15 @@ draft: true
 
 ---
 
-Atención, atención: Este presente experimento está a punto de explotar. **Se prendió esta mierda**
 
-
-Que aso el mío. Hoy vamos a hacer un experimento con ilustraciones personalizadas dentro de los blog posts y le meteremos demasiado encanto con algunas animaciones con js
-
-{{< rawhtml >}}
-
+<!-- {{< rawhtml >}}
+    img: "/images/blog/muro-beach.jpg"
+    
 <div id='chart'></div>
 
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+{{ partial "laptop-illustration.html" . }}
 
 <script>
     let options = {
@@ -57,5 +56,54 @@ Que aso el mío. Hoy vamos a hacer un experimento con ilustraciones personalizad
     chart.render()
 
 </script>
+
+{{< /rawhtml >}} -->
+
+
+{{< rawhtml >}}
+
+<div id="scroll-container">
+    <p>Out of view</p>
+</div>
+
+<style>
+    #scroll-container {
+        margin-top: 300px;
+        position: relative;
+        height: 100vw;
+        max-height: 700px;
+        width: 100vw;
+        max-width: 700px;
+        background-color: hsl(180, 90%, 50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #scroll-container p {
+        color: #fff;
+    }
+
+</style>
+
+<script>
+    let scrollContainer = document.querySelector('#scroll-container')
+    window.addEventListener('scroll', (e)=> {
+        
+        if (isInViewport(scrollContainer)) {
+            let rect = scrollContainer.getBoundingClientRect()
+            let rectTop = rect.top
+            let rectBottom = rect.bottom
+            console.log("Top: ", rectTop)
+            console.log("Bottom: ", rectBottom)
+            scrollContainer.style.background = 'hsl(150, 90%, 35%)'
+            scrollContainer.innerHTML = '<p>Inside the view</p>'
+        } else {
+            scrollContainer.innerHTML = '<p>Out of view</p>'
+            scrollContainer.style.background = 'hsl(0, 90%, 35%)'
+        }
+    })
+</script>
+
 
 {{< /rawhtml >}}

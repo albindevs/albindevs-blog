@@ -36,9 +36,11 @@
                         <a href="https://twitter.com/intent/tweet?url={{.Permalink}}&text={{.Title}}&via=albindevs" target="_blank" class="share-button">
                             <img src="/images/twitter-logo-color.svg" alt="Twitter share button" /> 
                         </a>
-                        <a href="{{.Params.igPost}}" target="_blank" class="share-button share-ig">
-                            <img src="/images/ig-outline.svg" alt="Instagram share button"/> 
-                        </a>
+                        {{if isset .Params "igPost" }}
+                            <a href="{{.Params.igPost}}" target="_blank" class="share-button share-ig">
+                                <img src="/images/ig-outline.svg" alt="Instagram share button"/> 
+                            </a>
+                        {{end}}
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@ description: If you're creative enough, coding is about giving your imagination
   all the resources of modern day computers
 imgAlternativeText: coding-illustration
 categories:
-  - Programming
+  - programming
 tags: null
 igPost: https://www.instagram.com/p/CJmPSH0lT2d/
 ---
