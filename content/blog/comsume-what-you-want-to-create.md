@@ -1,28 +1,18 @@
 ---
-title: "Consume what you want to create"
-
-description: "Thoughts on starting out as a content creator and how to keep ideas coming"
-
-categories:
-- creator
-
-tags:
-- creativity
-- content
-
-
-date: 2021-04-25T09:01:50-04:00
-update: 
-
-img: "/images/blog/consume/create.png"
-imgAlternativeText: "Things you love"
-
-igPost: 
-
+img: /images/blog/consume/create.png
+draft: true
 destacado: false
-
-draft: false
-
+title: Consume what you want to create
+description: Thoughts on starting out as a content creator and how to keep ideas coming
+imgAlternativeText: Things you love
+categories:
+  - creator
+tags:
+  - creativity
+  - content
+date: 2021-04-25T09:01:50-04:00
+update: 2021-05-22T19:01:58.065Z
+igPost: null
 ---
 
 Around the end of last year I started writing this blog. Recently I been struggling while trying to find ideas to write about or even the inspiration to do it. And then I suddenly realized that I wasn't even reading anything.
